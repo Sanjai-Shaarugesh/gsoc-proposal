@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold">AnkiDroid Multi-Profile Implementation</text>
+  
+  <!-- Current Structure (Left) -->
+  <rect x="50" y="80" width="300" height="350" fill="#e0e8f0" rx="8" ry="8" stroke="#2c3e50" stroke-width="2"/>
+  <text x="200" y="105" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold">Current Structure</text>
+  
+  <!-- Current Structure Folders -->
+  <rect x="80" y="120" width="240" height="290" fill="#ffffff" rx="5" ry="5" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="100" y="140" font-family="Courier, monospace" font-size="14" fill="#2c3e50">AnkiDroid/</text>
+  <text x="120" y="170" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── collection.anki2</text>
+  <text x="120" y="200" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── media/</text>
+  <text x="140" y="230" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── *.jpg, *.png, etc.</text>
+  <text x="120" y="260" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── prefs.json</text>
+  <text x="120" y="290" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── backups/</text>
+  <text x="120" y="320" font-family="Courier, monospace" font-size="14" fill="#2c3e50">└── AnkiWeb credentials</text>
+  <text x="140" y="350" font-family="Courier, monospace" font-size="14" fill="#2c3e50">(single user only)</text>
+  
+  <!-- Multi-Profile Structure (Right) -->
+  <rect x="450" y="80" width="300" height="350" fill="#e0f0e8" rx="8" ry="8" stroke="#2c3e50" stroke-width="2"/>
+  <text x="600" y="105" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" font-weight="bold">Multi-Profile Structure</text>
+  
+  <!-- Multi-Profile Structure Folders -->
+  <rect x="480" y="120" width="240" height="290" fill="#ffffff" rx="5" ry="5" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="500" y="140" font-family="Courier, monospace" font-size="14" fill="#2c3e50">AnkiDroid/</text>
+  <text x="520" y="170" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── profiles/</text>
+  <text x="540" y="200" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── profile_info.json</text>
+  <text x="540" y="230" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── profile1/</text>
+  <text x="560" y="260" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── collection.anki2</text>
+  <text x="560" y="290" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── media/</text>
+  <text x="560" y="320" font-family="Courier, monospace" font-size="14" fill="#2c3e50">└── prefs.json</text>
+  <text x="540" y="350" font-family="Courier, monospace" font-size="14" fill="#2c3e50">├── profile2/</text>
+  <text x="540" y="380" font-family="Courier, monospace" font-size="14" fill="#2c3e50">└── ...</text>
+  
+  <!-- Arrow between structures -->
+  <polygon points="380,225 430,205 430,245" fill="#3498db"/>
+  <line x1="350" y1="225" x2="380" y2="225" stroke="#3498db" stroke-width="3"/>
+  
+  <!-- Key new features -->
+  <rect x="100" y="430" width="600" height="50" fill="#f0e8e0" rx="8" ry="8" stroke="#2c3e50" stroke-width="1"/>
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">
+    <tspan x="400" dy="0">🔑 Key New Features: Profile Manager, Profile-specific AnkiWeb Sync, Profile Switching UI</tspan>
+  </text>
+</svg>

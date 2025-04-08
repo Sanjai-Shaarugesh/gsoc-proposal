@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png?token=GHSAT0AAAAAAC5C4A4MAH2WYXBBS4GGXPIUZ7VEBRQ" alt="gsoc">
+  <img src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png" alt="gsoc">
   <img src="https://avatars.githubusercontent.com/u/1428806?s=200&v=4" style="margin-left: 40px; border-radius: 5px; width:130"  alt="logo">
 </div>
 
@@ -49,7 +49,7 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Technologies: JavaScript, GNOME Shell API, OpenWeatherMap API
 - Repository: [https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion](https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion)
 
-![GNOME Weather Extension](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png?token=GHSAT0AAAAAAC5C4A4ND7MNHGLYZDRXR5MOZ7VEG5Q)
+![GNOME Weather Extension](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png)
 
 **2. githooo (OpenSource Dev Explorer)**
 - Created a SvelteKit web application that aggregates and displays profiles of open source developers from GitHub
@@ -58,13 +58,13 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Live demo: [githooo.vercel.app](https://githooo.vercel.app)
 - Repository: [https://github.com/Sanjai-Shaarugesh/githooo](https://github.com/Sanjai-Shaarugesh/githooo)
 
-![githooo](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png?token=GHSAT0AAAAAAC5C4A4M7NPE4R553FZQXXQ4Z7VEIVA)
+![githooo](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png)
 
 
 
 **3. Speed Share (Files sharing app using webrtc)**
 
-![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png?token=GHSAT0AAAAAAC5C4A4MRNRFYBUPRR7HYVCAZ7VEH4Q)
+![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png)
 
 
 - Create a Astro(svelte) web application that allows users to share files with others using WebRTC
@@ -73,7 +73,7 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Live demo: [https://speed-shares.vercel.app](https://speed-shares.vercel.app)
 - Repository: [https://github.com/Sanjai-Shaarugesh/Speed-share](https://github.com/Sanjai-Shaarugesh/Speed-share)
 
-![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png?token=GHSAT0AAAAAAC5C4A4MGG45NDE3KSJ6LU22Z7VEJEQ)
+![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png)
 
 
 ### Noteworthy Contributions
@@ -151,6 +151,8 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
    - Optimize map interface for better usability
    - Improve information hierarchy and readability
    - Create a consistent visual language across the application
+
+   ![OneBusAway Wayfinder Improvements Diagram](wayfinder-improvements-diagram.svg)
 
 ## 6) Detailed Project Proposal
 

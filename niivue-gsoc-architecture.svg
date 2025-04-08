@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background and title -->
+  <rect width="900" height="600" fill="#f8fafc" rx="10" ry="10"/>
+  <text x="450" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e293b">NiiVue Cloud Deployment Framework: GSoC 2025</text>
+  <text x="450" y="80" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#64748b">Architecture Overview and New Implementations</text>
+  
+  <!-- Main components -->
+  <g id="cloud-framework">
+    <rect x="50" y="120" width="240" height="380" rx="8" ry="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+    <text x="170" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1e40af">Cloud Deployment Framework</text>
+    
+    <!-- Cloud Framework Items -->
+    <g>
+      <rect x="70" y="170" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#3b82f6" stroke-width="1"/>
+      <text x="170" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">Docker Containers</text>
+      <text x="170" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Optimized for Neuroimaging</text>
+    </g>
+    
+    <g>
+      <rect x="70" y="240" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#3b82f6" stroke-width="1"/>
+      <text x="170" y="265" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">Kubernetes Orchestration</text>
+      <text x="170" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Auto-scaling and Health Monitoring</text>
+    </g>
+    
+    <g>
+      <rect x="70" y="310" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#3b82f6" stroke-width="1"/>
+      <text x="170" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">Multi-Cloud Support</text>
+      <text x="170" y="355" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">AWS, GCP, Azure with Terraform</text>
+    </g>
+    
+    <g>
+      <rect x="70" y="380" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#3b82f6" stroke-width="1"/>
+      <text x="170" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1e40af">CI/CD Pipelines</text>
+      <text x="170" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">GitHub Actions Integration</text>
+    </g>
+    
+    <g>
+      <rect x="70" y="450" width="200" height="40" rx="6" ry="6" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+      <text x="170" y="475" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1e40af">NEW: Security Hardening and Monitoring</text>
+    </g>
+  </g>  
+  
+  <g id="backend-integration">
+    <rect x="330" y="120" width="240" height="380" rx="8" ry="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="450" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#166534">Modular Backend Integration</text>
+    
+    <!-- Backend Integration Items -->
+    <g>
+      <rect x="350" y="170" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">RESTful API Layer</text>
+      <text x="450" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">OpenAPI/Swagger Documentation</text>
+    </g>
+    
+    <g>
+      <rect x="350" y="240" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="265" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">Neuroimaging Tool Adapters</text>
+      <text x="450" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">FSL, AFNI, FreeSurfer Integration</text>
+    </g>
+    
+    <g>
+      <rect x="350" y="310" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">Job Queue System</text>
+      <text x="450" y="355" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Asynchronous Processing</text>
+    </g>
+    
+    <g>
+      <rect x="350" y="380" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#166534">Data Storage and Retrieval</text>
+      <text x="450" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Efficient Object Storage</text>
+    </g>
+    
+    <g>
+      <rect x="350" y="450" width="200" height="40" rx="6" ry="6" fill="#bbf7d0" stroke="#16a34a" stroke-width="1"/>
+      <text x="450" y="475" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#166534">NEW: Plugin Architecture System</text>
+    </g>
+  </g>
+  
+  <g id="documentation">
+    <rect x="610" y="120" width="240" height="380" rx="8" ry="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+    <text x="730" y="150" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#92400e">Documentation and Examples</text>
+    
+    <!-- Documentation Items -->
+    <g>
+      <rect x="630" y="170" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#d97706" stroke-width="1"/>
+      <text x="730" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">Comprehensive Guides</text>
+      <text x="730" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Step-by-Step Deployment</text>
+    </g>
+    
+    <g>
+      <rect x="630" y="240" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#d97706" stroke-width="1"/>
+      <text x="730" y="265" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">Example Applications</text>
+      <text x="730" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Real-world Neuroimaging Workflows</text>
+    </g>
+    
+    <g>
+      <rect x="630" y="310" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#d97706" stroke-width="1"/>
+      <text x="730" y="335" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">Interactive Tutorials</text>
+      <text x="730" y="355" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">Custom Pipeline Implementation</text>
+    </g>
+    
+    <g>
+      <rect x="630" y="380" width="200" height="60" rx="6" ry="6" fill="#ffffff" stroke="#d97706" stroke-width="1"/>
+      <text x="730" y="405" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#92400e">API Documentation</text>
+      <text x="730" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">OpenAPI/Swagger Integration</text>
+    </g>
+    
+    <g>
+      <rect x="630" y="450" width="200" height="40" rx="6" ry="6" fill="#fde68a" stroke="#d97706" stroke-width="1"/>
+      <text x="730" y="475" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#92400e">NEW: Video Tutorials and Webinars</text>
+    </g>
+  </g>
+  
+  <!-- Flow arrows -->
+  <g id="arrows">
+    <!-- Cloud to Backend -->
+    <path d="M290 250 L330 250" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <!-- Backend to Docs -->
+    <path d="M570 250 L610 250" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <!-- Docs back to Cloud (circular) -->
+    <path d="M730 520 Q450 570 170 520" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- NiiVue component at the bottom -->
+  <g id="niivue-frontend">
+    <rect x="300" y="520" width="300" height="60" rx="8" ry="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="450" y="550" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#5b21b6">NiiVue Frontend Visualization</text>
+    <text x="450" y="570" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#64748b">WebGL-based Neuroimaging Renderer</text>
+  </g>
+  
+  <!-- Integration arrows to NiiVue -->
+  <g id="integration-arrows">
+    <path d="M170 500 Q270 560 300 550" stroke="#3b82f6" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M450 500 L450 520" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M730 500 Q630 560 600 550" stroke="#d97706" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+</svg>
