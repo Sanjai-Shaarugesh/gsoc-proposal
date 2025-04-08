@@ -135,6 +135,12 @@ By project completion, NiiVue will have a robust reference implementation for cl
 - **Cloud Providers:** AWS (EC2, S3, Lambda), GCP, Azure, DigitalOcean
 - **Infrastructure as Code:** Terraform, Pulumi, AWS CDK
 
+**Development Tools:**
+- Version control: Git, GitHub, GitLab, vim , neovim
+- CI/CD: Jenkins, GitHub Actions, GitLab CI
+- IDE: IntelliJ IDEA, VSCode, Eclipse
+- Database tools: DBeaver, pgAdmin
+
 **Testing:**
 - **Frameworks:** Jest, Vitest, Playwright, Cypress, pytest
 - **Methodologies:** TDD, BDD, E2E, Unit, Integration

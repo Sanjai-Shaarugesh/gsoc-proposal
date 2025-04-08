@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png?token=GHSAT0AAAAAAC5C4A4MAH2WYXBBS4GGXPIUZ7VEBRQ" alt="gsoc">
-  <img src="https://avatars.githubusercontent.com/u/1428806?s=200&v=4" style="margin-left: 40px; border-radius: 5px;"  width=150 alt="">
+  <img src="https://avatars.githubusercontent.com/u/1428806?s=200&v=4" style="margin-left: 40px; border-radius: 5px; width:130"  alt="logo">
 </div>
 
 
@@ -127,7 +127,7 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 **Developer Tools:**
 - Git, GitHub Actions, Docker, VS Code , vim , neovim
 - Webpack, Vite, Rollup
-- npm, yarn, pnpm , bun , bash , zsh
+- npm, yarn, pnpm , bun , bash 
 
 ## 5) Project Goals
 
