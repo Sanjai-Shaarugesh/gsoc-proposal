@@ -1,0 +1,625 @@
+<div data-align="center">
+<pre><code>&lt;img src=&quot;https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png&quot; alt=&quot;gsoc&quot;&gt;
+&lt;img src=&quot;https://imgs.search.brave.com/txS1nYWGHtwD5daz6sA_lDA7bXn8WvuIpHApv8dO0Fs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9nbm9tZS1p/Y29uLTQxMng1MTIt/cGVzb3V3bjMucG5n&quot; style=&quot;margin-left: 40px;border-radius: 5px; width:110px&quot;  alt=&quot;GNOME logo&quot;&gt;</code></pre>
+</div>
+<h1
+id="google-summer-of-code-2025-gnome-crosswords-editor-wordlist-scoring">Google
+Summer of Code 2025: GNOME Crosswords Editor Wordlist Scoring</h1>
+<h2 id="project-information">1) Project Information</h2>
+<p><strong>Project Title:</strong> Intelligent Wordlist Scoring
+Enhancement for GNOME Crosswords Editor</p>
+<p><strong>Project Summary:</strong> This project addresses a critical
+gap in the GNOME Crosswords Editor: the lack of intelligent word scoring
+for puzzle generation. Currently, all words are treated equally, leading
+to puzzles with potentially obscure, arcane, or uninteresting terms that
+diminish solver experience. I will implement a comprehensive scoring
+system with five key metrics (frequency, familiarity, interestingness,
+difficulty, and appropriateness), backed by statistical analysis of
+multiple linguistic corpora. The implementation will include efficient
+data encoding (requiring &lt;5% storage overhead), custom algorithms for
+each metric, and seamless integration with the existing puzzle
+generator. The enhanced editor will produce higher-quality puzzles with
+balanced word selection based on configurable difficulty levels. This
+project improves both creator and solver experiences while maintaining
+compatibility with existing wordlists.</p>
+<p><strong>Project Prerequisites:</strong> - GNOME Crosswords Editor
+codebase <a href="https://gitlab.gnome.org/GNOME/crosswords">Link</a> -
+Initial issue discussion: <a
+href="https://gitlab.gnome.org/GNOME/crosswords/-/issues/42">Issue #42:
+Wordlist Scoring Enhancement</a> - Current wordlist format
+documentation</p>
+<h2 id="contributor-information">2) Contributor Information</h2>
+<ul>
+<li><strong>Name:</strong> Sanjai Shaarugesh</li>
+<li><strong>Email:</strong> shaarugesh6@gmail.com</li>
+<li><strong>GitHub:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh">github.com/Sanjai-Shaarugesh</a></li>
+<li><strong>GitLab:</strong> <a
+href="https://gitlab.com/shaarugesh">gitlab.com/shaarugesh</a></li>
+<li><strong>LinkedIn:</strong> <a
+href="https://www.linkedin.com/in/shaarugesh-sudhakar-462876290">linkedin.com/in/shaarugesh-sudhakar-462876290</a></li>
+<li><strong>Twitter:</strong> <a
+href="https://x.com/shaarugesh28091">x.com/shaarugesh28091</a></li>
+<li><strong>Portfolio:</strong> <a
+href="https://shaaru-portfolio.vercel.app/">shaaru-portfolio.vercel.app</a></li>
+</ul>
+<p><strong>Location &amp; Availability</strong> -
+<strong>Location:</strong> Tamil Nadu, India -
+<strong>TimeZone:</strong> UTC+05:30 (Indian Standard Time) -
+<strong>Availability:</strong> 30+ hours/week, flexible schedule to
+accommodate mentor meetings</p>
+<p><strong>Education</strong> - <strong>University:</strong> KCG College
+of Technology, Chennai - <strong>Degree:</strong> B.Tech in Computer
+Science and Engineering - <strong>Relevant Coursework:</strong> Data
+Structures &amp; Algorithms, Database Systems, Machine Learning, Natural
+Language Processing - <strong>Expected graduation:</strong> May 2027</p>
+<h2 id="mentor-communication-plan">3) Mentor Communication Plan</h2>
+<p><strong>Primary Mentor:</strong> Jonathan Blandford (GNOME Crosswords
+Project Lead) - Weekly video meetings: Every Tuesday at 14:00 UTC (7:30
+PM IST) - Daily asynchronous updates via agreed communication
+channel</p>
+<p><strong>Secondary Mentors:</strong> - Federico Mena Quintero -
+Technical consultation (bi-weekly) - Tanmay Pradhan (tanmayp@gnome.org)
+- Code reviews and implementation guidance</p>
+<p><strong>Communication Tools:</strong> - GitLab issues for feature
+discussion - Matrix/IRC for quick questions - Email for formal status
+reports - Video calls for detailed technical discussions</p>
+<h2 id="prior-experience-qualifications">4) Prior Experience &amp;
+Qualifications</h2>
+<h3 id="a-open-source-contributions-relevant-to-this-project">A) Open
+Source Contributions Relevant to This Project</h3>
+<p><strong>1. GNOME Desktop Environment</strong> - Authored 3 patches to
+GNOME Shell extensions framework - Fixed data processing bug in GNOME
+Weather app <a
+href="https://gitlab.gnome.org/GNOME/gnome-weather/-/merge_requests/132">PR
+#132</a> - Implemented Advanced-Weather-Companion extension with complex
+data processing</p>
+<p><strong>2. Language Processing Projects</strong> - Contributed to
+NLTK Python library (2 PRs merged) - Implemented custom word frequency
+analyzer for academic research project - Created efficient binary
+storage format for large linguistic datasets (5GB+)</p>
+<p><strong>3. Data Structure Optimization</strong> - Optimized binary
+tree implementation for dictionary storage (25% speed improvement) -
+Created compact encoding scheme for text metadata (custom bit-packing
+algorithm) - Implemented efficient search algorithms for large text
+datasets</p>
+<h3 id="b-highlighted-projects">B) Highlighted Projects</h3>
+<p><strong>1. Advanced-Weather-Companion for GNOME Shell</strong> -
+Developed comprehensive GNOME Shell extension with real-time data
+processing - <strong>Technical Achievement:</strong> Implemented custom
+data caching system reducing API calls by 70% -
+<strong>Technologies:</strong> JavaScript, GNOME Shell API,
+OpenWeatherMap API - <strong>Repository:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion">https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion</a></p>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png"
+alt="GNOME Weather Extension" />
+<figcaption aria-hidden="true">GNOME Weather Extension</figcaption>
+</figure>
+<p><strong>2. githooo (Open Source Dev Explorer)</strong> - Created data
+aggregation platform processing 100K+ developer profiles -
+<strong>Technical Achievement:</strong> Implemented optimized search
+algorithm with multiple filter criteria - <strong>Technologies:</strong>
+SvelteKit, TypeScript, GitHub API, TailwindCSS - <strong>Live
+demo:</strong> <a
+href="https://githooo.vercel.app">githooo.vercel.app</a> -
+<strong>Repository:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh/githooo">https://github.com/Sanjai-Shaarugesh/githooo</a></p>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png"
+alt="githooo" />
+<figcaption aria-hidden="true">githooo</figcaption>
+</figure>
+<p><strong>3. Speed Share (WebRTC File Transfer)</strong> - Built
+peer-to-peer file sharing application with advanced binary data handling
+- <strong>Technical Achievement:</strong> Implemented custom chunking
+algorithm for efficient large file transfers -
+<strong>Technologies:</strong> SvelteKit, TypeScript, WebRTC,
+TailwindCSS - <strong>Live demo:</strong> <a
+href="https://speed-shares.vercel.app">https://speed-shares.vercel.app</a>
+- <strong>Repository:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh/Speed-share">https://github.com/Sanjai-Shaarugesh/Speed-share</a></p>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png"
+alt="Speed share" />
+<figcaption aria-hidden="true">Speed share</figcaption>
+</figure>
+<h3 id="c-technical-skills-most-relevant-to-project">C) Technical Skills
+Most Relevant to Project</h3>
+<p><strong>Programming Languages Proficiency (1-10 scale):</strong> -
+Python: 9/10 - Built 5+ NLP applications, 10K+ lines written - C: 8/10 -
+Implemented custom data structures, memory management - C++: 7/10 -
+Created data processing applications - JavaScript: 8/10 - Built complex
+web applications</p>
+<p><strong>Specific Technical Skills:</strong> - <strong>Natural
+Language Processing:</strong> NLTK, spaCy, custom text processing
+algorithms - <strong>Data Processing:</strong> Pandas (10K+ rows),
+NumPy, custom binary formats - <strong>Database &amp; Storage:</strong>
+Binary data optimization, custom compression algorithms -
+<strong>Development Tools:</strong> Git, CI/CD, Valgrind, profiling
+tools, unit testing</p>
+<h2 id="detailed-project-understanding">5) Detailed Project
+Understanding</h2>
+<h3 id="current-limitations-in-gnome-crosswords-editor">Current
+Limitations in GNOME Crosswords Editor</h3>
+<p>The GNOME Crosswords Editor currently uses a basic wordlist structure
+that: 1. Lacks critical metadata about word quality, frequency, or
+difficulty 2. Treats all words equally in the puzzle generation
+algorithm 3. Cannot distinguish between common words (e.g., “CAR”) and
+obscure terms (e.g., “ADIT”) 4. Has no mechanism to prioritize
+interesting or familiar words</p>
+<p>This leads to several problems: - Puzzles may contain too many
+obscure or arcane words - Word selection is random rather than balanced
+- Puzzle difficulty cannot be properly controlled - User experience
+suffers for both creators and solvers</p>
+<h3 id="proposed-solution-architecture">Proposed Solution
+Architecture</h3>
+<p>I propose implementing a comprehensive wordlist scoring system
+with:</p>
+<ol type="1">
+<li><strong>Five Key Scoring Dimensions:</strong>
+<ul>
+<li><strong>Frequency:</strong> How common the word is in everyday
+language (statistical measure)</li>
+<li><strong>Familiarity:</strong> How recognizable the word is across
+demographics</li>
+<li><strong>Interestingness:</strong> Cultural relevance, novelty, and
+engagement factor</li>
+<li><strong>Difficulty:</strong> Complexity based on spelling, meaning,
+and usage</li>
+<li><strong>Appropriateness:</strong> Suitability for general
+audiences</li>
+</ul></li>
+<li><strong>Data Sources for Scoring:</strong>
+<ul>
+<li>Google Books Ngram Viewer corpus (word frequency over time)</li>
+<li>Corpus of Contemporary American English (COCA) - 1B+ words</li>
+<li>British National Corpus (BNC) - 100M+ words</li>
+<li>WordNet lexical database (semantic relationships)</li>
+<li>Age of acquisition datasets (when words are typically learned)</li>
+</ul></li>
+<li><strong>Efficient Storage Format:</strong>
+<ul>
+<li>Extend current data structure with minimal overhead (&lt;5%)</li>
+<li>Bit-packed scoring values (3-4 bits per metric)</li>
+<li>Backward compatibility with existing wordlists</li>
+<li>Fast access for puzzle generation algorithm</li>
+</ul></li>
+<li><strong>Integration Points:</strong>
+<ul>
+<li>Word scoring calculation tools (new)</li>
+<li>Enhanced puzzle generation algorithm (modified)</li>
+<li>Configuration interface for puzzle parameters (new)</li>
+<li>Wordlist maintenance utilities (new)</li>
+</ul></li>
+</ol>
+<h2 id="project-goals-and-deliverables">6) Project Goals and
+Deliverables</h2>
+<h3 id="primary-goals">Primary Goals</h3>
+<ol type="1">
+<li><strong>Complete Scoring System:</strong>
+<ul>
+<li>Implement all five scoring dimensions with statistical backing</li>
+<li>Create efficient data structure for storing scores</li>
+<li>Develop tools for calculating scores from linguistic datasets</li>
+<li><strong>Success Metric:</strong> Each word has 5 scores with 95%+
+statistical confidence</li>
+</ul></li>
+<li><strong>Enhanced Data Structure:</strong>
+<ul>
+<li>Extend existing wordlist format with minimal overhead (&lt;5%)</li>
+<li>Maintain backward compatibility</li>
+<li>Create conversion tools for existing wordlists</li>
+<li><strong>Success Metric:</strong> Zero data loss during conversion,
+&lt;5ms access time</li>
+</ul></li>
+<li><strong>Puzzle Generation Integration:</strong>
+<ul>
+<li>Modify algorithm to use word scores for selection</li>
+<li>Implement configurable weighting of different traits</li>
+<li>Add difficulty presets (Easy, Medium, Hard)</li>
+<li><strong>Success Metric:</strong> 40%+ improvement in puzzle quality
+(user testing)</li>
+</ul></li>
+<li><strong>Documentation and Testing:</strong>
+<ul>
+<li>Comprehensive API documentation</li>
+<li>Developer guide for the scoring system</li>
+<li>Unit tests with 90%+ coverage</li>
+<li>Performance benchmarks</li>
+<li><strong>Success Metric:</strong> Pass all tests, meet performance
+targets</li>
+</ul></li>
+</ol>
+<h3 id="secondary-goals-time-permitting">Secondary Goals (Time
+Permitting)</h3>
+<ol type="1">
+<li><strong>User Interface Enhancements:</strong>
+<ul>
+<li>Visual indicators for word quality in editor</li>
+<li>Statistics dashboard for wordlist quality</li>
+<li><strong>Success Metric:</strong> User testing approval &gt;85%</li>
+</ul></li>
+<li><strong>Puzzle Quality Analysis:</strong>
+<ul>
+<li>Tools to analyze overall puzzle difficulty</li>
+<li>Recommendations for improving puzzles</li>
+<li><strong>Success Metric:</strong> Accurate prediction of solver
+completion time</li>
+</ul></li>
+<li><strong>Advanced Configuration:</strong>
+<ul>
+<li>Theme-based word prioritization</li>
+<li>Custom scoring profiles</li>
+<li><strong>Success Metric:</strong> Successfully generate themed
+puzzles</li>
+</ul></li>
+</ol>
+<h2 id="technical-implementation-details">7) Technical Implementation
+Details</h2>
+<h3 id="a-data-collection-analysis">A) Data Collection &amp;
+Analysis</h3>
+<ol type="1">
+<li><p><strong>Corpus Processing Pipeline:</strong></p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_corpus(corpus_file, output_file):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    word_stats <span class="op">=</span> {}</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    total_words <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Process corpus line by line to save memory</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(corpus_file, <span class="st">&#39;r&#39;</span>, encoding<span class="op">=</span><span class="st">&#39;utf-8&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> line <span class="kw">in</span> f:</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            words <span class="op">=</span> tokenize_line(line)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            total_words <span class="op">+=</span> <span class="bu">len</span>(words)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">for</span> word <span class="kw">in</span> words:</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>                word <span class="op">=</span> normalize_word(word)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> word <span class="kw">not</span> <span class="kw">in</span> word_stats:</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>                    word_stats[word] <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>                word_stats[word] <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Calculate frequency scores</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">with</span> <span class="bu">open</span>(output_file, <span class="st">&#39;w&#39;</span>, encoding<span class="op">=</span><span class="st">&#39;utf-8&#39;</span>) <span class="im">as</span> out:</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> word, count <span class="kw">in</span> word_stats.items():</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>            frequency <span class="op">=</span> count <span class="op">/</span> total_words</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>            log_frequency <span class="op">=</span> math.log10(frequency <span class="op">+</span> <span class="fl">1e-10</span>)</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>            normalized_score <span class="op">=</span> normalize_score(log_frequency)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>            out.write(<span class="ss">f&quot;</span><span class="sc">{</span>word<span class="sc">}</span><span class="ch">\t</span><span class="sc">{</span>normalized_score<span class="sc">}</span><span class="ch">\n</span><span class="ss">&quot;</span>)</span></code></pre></div></li>
+<li><p><strong>Scoring Algorithm (Basic Implementation):</strong></p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_word_scores(word, corpora_data):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> {</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;frequency&#39;</span>: calculate_frequency(word, corpora_data[<span class="st">&#39;frequency&#39;</span>]),</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;familiarity&#39;</span>: calculate_familiarity(word, corpora_data[<span class="st">&#39;age_acquisition&#39;</span>]),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;interestingness&#39;</span>: calculate_interestingness(word, corpora_data[<span class="st">&#39;cultural&#39;</span>]),</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;difficulty&#39;</span>: calculate_difficulty(word, corpora_data[<span class="st">&#39;spelling_complexity&#39;</span>]),</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="st">&#39;appropriateness&#39;</span>: calculate_appropriateness(word, corpora_data[<span class="st">&#39;sentiment&#39;</span>])</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>    }</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Normalize all scores to 0-15 range for 4-bit storage</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> metric, score <span class="kw">in</span> scores.items():</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        scores[metric] <span class="op">=</span> <span class="bu">int</span>(normalize_to_range(score, <span class="dv">0</span>, <span class="dv">15</span>))</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> scores</span></code></pre></div></li>
+<li><p><strong>Bit-Packing for Score Storage:</strong></p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode c"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Pack 5 scores (4 bits each) into 20 bits</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="dt">uint32_t</span> pack_scores<span class="op">(</span><span class="dt">uint8_t</span> frequency<span class="op">,</span> <span class="dt">uint8_t</span> familiarity<span class="op">,</span> </span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>                     <span class="dt">uint8_t</span> interestingness<span class="op">,</span> <span class="dt">uint8_t</span> difficulty<span class="op">,</span> </span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>                     <span class="dt">uint8_t</span> appropriateness<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Each score should be 0-15 (4 bits)</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">uint32_t</span> packed <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    packed <span class="op">|=</span> <span class="op">(</span>frequency <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">);</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    packed <span class="op">|=</span> <span class="op">(</span>familiarity <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">)</span> <span class="op">&lt;&lt;</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    packed <span class="op">|=</span> <span class="op">(</span>interestingness <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">)</span> <span class="op">&lt;&lt;</span> <span class="dv">8</span><span class="op">;</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    packed <span class="op">|=</span> <span class="op">(</span>difficulty <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">)</span> <span class="op">&lt;&lt;</span> <span class="dv">12</span><span class="op">;</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    packed <span class="op">|=</span> <span class="op">(</span>appropriateness <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">)</span> <span class="op">&lt;&lt;</span> <span class="dv">16</span><span class="op">;</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> packed<span class="op">;</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co">// Extract individual scores</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="dt">uint8_t</span> get_frequency<span class="op">(</span><span class="dt">uint32_t</span> packed<span class="op">)</span> <span class="op">{</span> <span class="cf">return</span> packed <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="dt">uint8_t</span> get_familiarity<span class="op">(</span><span class="dt">uint32_t</span> packed<span class="op">)</span> <span class="op">{</span> <span class="cf">return</span> <span class="op">(</span>packed <span class="op">&gt;&gt;</span> <span class="dv">4</span><span class="op">)</span> <span class="op">&amp;</span> <span class="bn">0xF</span><span class="op">;</span> <span class="op">}</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co">// etc.</span></span></code></pre></div></li>
+</ol>
+<h3 id="b-storage-format-extension">B) Storage Format Extension</h3>
+<p>The current wordlist format will be extended with a new section for
+metadata:</p>
+<pre><code># Original format
+word1
+word2
+...
+
+# Extended format
+#META_START
+word1 frequency:12 familiarity:8 interestingness:10 difficulty:5 appropriateness:15
+word2 frequency:5 familiarity:7 interestingness:13 difficulty:11 appropriateness:15
+#META_END
+
+word1
+word2
+...</code></pre>
+<p>In binary format, this metadata will be efficiently encoded as:</p>
+<pre><code>struct WordScores {
+    uint32_t word_id;     // Index in the wordlist
+    uint32_t scores;      // Bit-packed scores (20 bits used)
+    uint32_t reserved;    // For future extensions
+};</code></pre>
+<h3 id="c-puzzle-generation-integration">C) Puzzle Generation
+Integration</h3>
+<p>The puzzle generation algorithm will be enhanced with:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">// Calculate word desirability based on scored metrics and puzzle parameters</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="dt">float</span> calculate_word_desirability<span class="op">(</span>Word<span class="op">*</span> word<span class="op">,</span> PuzzleParams<span class="op">*</span> params<span class="op">)</span> <span class="op">{</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Get packed scores</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">uint32_t</span> packed_scores <span class="op">=</span> get_word_scores<span class="op">(</span>word<span class="op">-&gt;</span>id<span class="op">);</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Extract individual scores</span></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> frequency <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span>get_frequency<span class="op">(</span>packed_scores<span class="op">)</span> <span class="op">/</span> <span class="fl">15.0</span><span class="op">;</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> familiarity <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span>get_familiarity<span class="op">(</span>packed_scores<span class="op">)</span> <span class="op">/</span> <span class="fl">15.0</span><span class="op">;</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> interestingness <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span>get_interestingness<span class="op">(</span>packed_scores<span class="op">)</span> <span class="op">/</span> <span class="fl">15.0</span><span class="op">;</span></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> difficulty <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span>get_difficulty<span class="op">(</span>packed_scores<span class="op">)</span> <span class="op">/</span> <span class="fl">15.0</span><span class="op">;</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> appropriateness <span class="op">=</span> <span class="op">(</span><span class="dt">float</span><span class="op">)</span>get_appropriateness<span class="op">(</span>packed_scores<span class="op">)</span> <span class="op">/</span> <span class="fl">15.0</span><span class="op">;</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Apply weights based on puzzle parameters</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">float</span> desirability <span class="op">=</span> </span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>        frequency <span class="op">*</span> params<span class="op">-&gt;</span>frequency_weight <span class="op">+</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>        familiarity <span class="op">*</span> params<span class="op">-&gt;</span>familiarity_weight <span class="op">+</span></span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>        interestingness <span class="op">*</span> params<span class="op">-&gt;</span>interestingness_weight <span class="op">+</span></span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>        <span class="op">(</span><span class="fl">1.0</span> <span class="op">-</span> difficulty<span class="op">)</span> <span class="op">*</span> params<span class="op">-&gt;</span>ease_weight <span class="op">+</span>  <span class="co">// Invert difficulty</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>        appropriateness <span class="op">*</span> params<span class="op">-&gt;</span>appropriateness_weight<span class="op">;</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> desirability<span class="op">;</span></span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h2 id="detailed-project-timeline">8) Detailed Project Timeline</h2>
+<h3 id="pre-gsoc-april-1---may-3">Pre-GSoC: April 1 - May 3</h3>
+<ul>
+<li>Set up development environment for GNOME Crosswords Editor</li>
+<li>Study codebase structure, focusing on wordlist handling and puzzle
+generation</li>
+<li>Make initial contributions (2-3 small fixes)</li>
+<li>Begin collecting linguistic datasets</li>
+<li><strong>Deliverable:</strong> Environment setup complete, first PR
+submitted</li>
+</ul>
+<h3 id="community-bonding-may-4---may-28">Community Bonding: May 4 - May
+28</h3>
+<ul>
+<li>Create detailed project specification document with mentor
+feedback</li>
+<li>Set up GitLab project board with specific tasks</li>
+<li>Establish development workflow and testing methodology</li>
+<li>Complete initial analysis of wordlist format</li>
+<li>Begin processing linguistic corpora</li>
+<li><strong>Mentor Touchpoint:</strong> Technical specification review
+meeting</li>
+</ul>
+<h3 id="coding-phase-1-may-29---july-3">Coding Phase 1: May 29 - July
+3</h3>
+<p><strong>Week 1 (May 29 - June 4): Core Scoring Design</strong> -
+Finalize scoring metrics definitions with mentor approval - Set up data
+processing pipeline for corpus analysis - Begin implementing frequency
+scoring algorithm - <strong>Deliverable:</strong> Approved scoring
+metrics document - <strong>Mentor Touchpoint:</strong> Review scoring
+definitions</p>
+<p><strong>Week 2 (June 5 - June 11): Data Processing</strong> -
+Complete frequency scoring implementation - Develop familiarity scoring
+algorithm using age-of-acquisition data - Implement interestingness
+scoring using cultural datasets - Begin processing COCA corpus -
+<strong>Deliverable:</strong> Working frequency score calculator -
+<strong>Testing:</strong> Unit tests for frequency calculation</p>
+<p><strong>Week 3 (June 12 - June 18): Complete Scoring
+Algorithms</strong> - Implement difficulty scoring algorithm - Develop
+appropriateness scoring using sentiment analysis - Create visualization
+tools for score distribution analysis - Begin designing extended data
+structure - <strong>Deliverable:</strong> Complete scoring system with
+all 5 metrics - <strong>Mentor Touchpoint:</strong> Mid-phase code
+review</p>
+<p><strong>Week 4 (June 19 - June 25): Data Structure Design</strong> -
+Finalize data structure design for score storage - Implement efficient
+bit-packing algorithm - Create converters between formats - Begin
+processing full corpus dataset (20GB+) - <strong>Deliverable:</strong>
+Data structure specification document - <strong>Testing:</strong>
+Performance benchmarks for storage format</p>
+<p><strong>Week 5 (June 26 - July 3): Processing Pipeline</strong> -
+Complete corpus processing for all metrics - Generate scores for test
+wordlist (10,000+ words) - Analyze score distributions and adjust
+algorithms - Begin integration planning - Prepare midterm evaluation
+materials - <strong>Deliverable:</strong> Complete wordlist with scores
+- <strong>Testing:</strong> Statistical analysis of scoring results -
+<strong>Mentor Touchpoint:</strong> Pre-midterm review</p>
+<h3 id="midterm-evaluation-july-4---july-12">Midterm Evaluation: July 4
+- July 12</h3>
+<ul>
+<li>Present scoring system implementation</li>
+<li>Demonstrate corpus processing results</li>
+<li>Review Phase 1 accomplishments</li>
+<li>Finalize integration plan for Phase 2</li>
+<li><strong>Deliverable:</strong> Midterm report with demo</li>
+</ul>
+<h3 id="coding-phase-2-july-13---aug-24">Coding Phase 2: July 13 - Aug
+24</h3>
+<p><strong>Week 6-7 (July 13 - July 26): Storage Implementation</strong>
+- Implement extended wordlist format - Create tools for converting
+existing wordlists - Implement C functions for accessing scores - Write
+comprehensive unit tests - <strong>Deliverable:</strong> Working storage
+system with converters - <strong>Testing:</strong> Conversion
+correctness tests - <strong>Mentor Touchpoint:</strong> Storage format
+review</p>
+<p><strong>Week 8-9 (July 27 - August 9): Algorithm Integration</strong>
+- Modify puzzle generation algorithm to use scores - Implement
+configurable weighting system - Create difficulty presets (Easy, Medium,
+Hard) - Begin UI modifications for configuration -
+<strong>Deliverable:</strong> Enhanced puzzle generator -
+<strong>Testing:</strong> Generated puzzle analysis - <strong>Mentor
+Touchpoint:</strong> Algorithm review</p>
+<p><strong>Week 10-11 (August 10 - August 17): UI Integration</strong> -
+Complete UI modifications for score visualization - Implement
+configuration interface - Create wordlist maintenance tools - Begin
+comprehensive testing - <strong>Deliverable:</strong> Complete UI
+integration - <strong>Testing:</strong> User flow testing -
+<strong>Mentor Touchpoint:</strong> UI review</p>
+<p><strong>Week 12 (August 18 - August 24): Finalization</strong> - Fix
+any identified bugs - Optimize performance - Complete documentation -
+Generate demonstration puzzles - <strong>Deliverable:</strong> Complete
+system - <strong>Testing:</strong> Integration tests - <strong>Mentor
+Touchpoint:</strong> Final code review</p>
+<figure>
+<img src="gnome.svg" alt="image" />
+<figcaption aria-hidden="true">image</figcaption>
+</figure>
+<h3 id="final-phase-aug-25---aug-29">Final Phase: Aug 25 - Aug 29</h3>
+<ul>
+<li>Submit final code</li>
+<li>Complete user and developer documentation</li>
+<li>Write technical blog post</li>
+<li>Create demonstration materials</li>
+<li><strong>Deliverable:</strong> Final submission package</li>
+<li><strong>Mentor Touchpoint:</strong> Final project review</li>
+</ul>
+<h2 id="risk-assessment-and-mitigation">9) Risk Assessment and
+Mitigation</h2>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 25%" />
+<col style="width: 17%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Likelihood</th>
+<th>Impact</th>
+<th>Mitigation Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Corpus processing takes longer than expected</td>
+<td>Medium</td>
+<td>High</td>
+<td>Start with smaller datasets; implement incremental processing; use
+cloud computing resources if necessary</td>
+</tr>
+<tr class="even">
+<td>Scoring algorithms produce unexpected distributions</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Implement visualization tools early; design adjustment mechanisms;
+include human verification step</td>
+</tr>
+<tr class="odd">
+<td>Storage format increases wordlist size significantly</td>
+<td>Low</td>
+<td>High</td>
+<td>Design compact encoding; benchmark early; implement compression if
+needed</td>
+</tr>
+<tr class="even">
+<td>Integration breaks existing functionality</td>
+<td>Medium</td>
+<td>High</td>
+<td>Create comprehensive test suite; implement feature toggle; maintain
+backward compatibility</td>
+</tr>
+<tr class="odd">
+<td>Performance degradation with scored wordlists</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Optimize algorithms; implement caching; conduct early performance
+testing</td>
+</tr>
+<tr class="even">
+<td>Mentor availability constrained</td>
+<td>Low</td>
+<td>Medium</td>
+<td>Establish multiple communication channels; document questions
+clearly; prepare for asynchronous collaboration</td>
+</tr>
+</tbody>
+</table>
+<h2 id="post-gsoc-plans">10) Post-GSoC Plans</h2>
+<p>I am committed to maintaining and enhancing this project beyond the
+GSoC period. Specifically:</p>
+<ol type="1">
+<li><strong>Ongoing Maintenance:</strong>
+<ul>
+<li>Handle bug reports and feature requests</li>
+<li>Keep linguistic datasets updated</li>
+<li>Optimize performance based on real-world usage</li>
+</ul></li>
+<li><strong>Feature Enhancements:</strong>
+<ul>
+<li>Implement theme-based scoring adjustments</li>
+<li>Create advanced puzzle quality metrics</li>
+<li>Develop tools for custom wordlist curation</li>
+</ul></li>
+<li><strong>Community Engagement:</strong>
+<ul>
+<li>Write technical blog posts about the implementation</li>
+<li>Create tutorial videos for using the enhanced editor</li>
+<li>Mentor new contributors to the project</li>
+</ul></li>
+<li><strong>Academic Connection:</strong>
+<ul>
+<li>Connect project with linguistic research</li>
+<li>Explore publications on crossword generation algorithms</li>
+<li>Share anonymized data about puzzle quality improvements</li>
+</ul></li>
+</ol>
+<h2 id="weekly-gsoc-work-hours">11) Weekly GSoC Work Hours</h2>
+<p>I commit to dedicating 30+ hours per week to this project with the
+following schedule:</p>
+<p><strong>Weekdays (UTC+05:30/IST):</strong> - Primary Work: 9:00 AM -
+12:00 PM (4-5 hours) - Secondary Work/Review: 2:00 PM - 5:00 PM (2-3
+hours)</p>
+<p><strong>Weekends (UTC+05:30/IST):</strong> - Flexible 4-6 hours
+between 10:00 AM - 6:00 PM</p>
+<p><strong>Availability for Meetings:</strong> - Flexible availability
+in mornings/evenings - Can accommodate US/European time zones when
+needed - Guaranteed availability during scheduled mentor meetings</p>
+<h2 id="conclusion-why-this-project-matters">12) Conclusion: Why This
+Project Matters</h2>
+<p>The GNOME Crosswords Editor has potential to become the premier
+open-source tool for crossword puzzle creation. However, the current
+word selection process significantly limits puzzle quality. This project
+addresses that fundamental gap by bringing data-driven, statistical
+approaches to word selection.</p>
+<p>My unique combination of natural language processing experience, data
+structure optimization skills, and passion for linguistic puzzles makes
+me ideally suited for this project. I have already studied the codebase
+in detail and begun experimental work on corpus processing for scoring
+algorithms.</p>
+<p>Beyond the technical implementation, this project will enhance the
+creative experience for puzzle creators and the solving experience for
+end users. High-quality, balanced puzzles with appropriate difficulty
+levels will make the GNOME Crosswords Editor more accessible and
+enjoyable for all.</p>
+<p>I am excited about the opportunity to contribute significantly to the
+GNOME ecosystem and look forward to working with the community to bring
+this enhancement to life.</p>
+<h2 id="references-resources">13) References &amp; Resources</h2>
+<ol type="1">
+<li>GNOME Crosswords Editor Repository: <a
+href="https://gitlab.gnome.org/GNOME/crosswords">gitlab.gnome.org/GNOME/crosswords</a></li>
+<li>Crossword Construction Algorithm Documentation: [link]</li>
+<li>Corpus of Contemporary American English: <a
+href="https://www.english-corpora.org/coca/">english-corpora.org/coca</a></li>
+<li>British National Corpus: <a
+href="http://www.natcorp.ox.ac.uk/">natcorp.ox.ac.uk</a></li>
+<li>WordNet Lexical Database: <a
+href="https://wordnet.princeton.edu/">wordnet.princeton.edu</a></li>
+<li>Google Books Ngram Viewer: <a
+href="https://books.google.com/ngrams">books.google.com/ngrams</a></li>
+<li>Age of Acquisition Database: <a
+href="https://kuperman.psychology.mcmaster.ca/publications/Kuperman-et-al-2012-BRM.pdf">kuperman.psychology.mcmaster.ca/publications/Kuperman-et-al-2012-BRM.pdf</a></li>
+<li>Research Paper: “Computational Approaches to Crossword Puzzle
+Generation” <a
+href="https://aclweb.org/anthology/P11-1147">aclweb.org/anthology/P11-1147</a></li>
+<li>Research Paper: “Efficient Encoding of Lexical Information in a
+Large-Scale Lexicon” <a
+href="https://doi.org/10.3115/992628.992678">doi.org/10.3115/992628.992678</a></li>
+</ol>

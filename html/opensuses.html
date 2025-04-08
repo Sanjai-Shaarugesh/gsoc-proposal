@@ -1,0 +1,438 @@
+<div data-align="center">
+<img src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png" alt="gsoc">
+<img src="https://avatars.githubusercontent.com/u/623819?s=200&v=4" style="margin-left: 40px; border-radius: 5px;"  width=130 alt="logo">
+</div>
+<h1
+id="google-summer-of-code-2025-uyuni---support-for-ubuntu-snap-packages">Google
+Summer of Code 2025: Uyuni - Support for Ubuntu Snap Packages</h1>
+<h2 id="project-information">1) Project Information</h2>
+<p><strong>Project Title:</strong> Support for Ubuntu Snap Packages in
+Uyuni</p>
+<p><strong>Project Summary:</strong> This project aims to integrate
+comprehensive Snap package management capabilities into Uyuni,
+addressing a critical gap in its Ubuntu support. Since Ubuntu 22.04 LTS,
+Snap package technology has gained significant traction, and with Ubuntu
+24.04 LTS, many traditional deb packages are being migrated to Snap. My
+implementation will enable Uyuni administrators to: (1) install, update,
+and remove Snap packages across their Ubuntu fleet, (2) manage Snap
+channels (stable, candidate, beta, edge) for granular control over
+software deployment, and (3) handle Snap packages in airgapped
+environments where direct internet access is restricted. By project
+completion, Uyuni will have robust support for modern Ubuntu
+environments, ensuring organizations can maintain consistent management
+practices as the ecosystem evolves toward Snap-based distribution.</p>
+<h2 id="contributor-information">2) Contributor Information</h2>
+<ul>
+<li><strong>Name:</strong> Sanjai Shaarugesh</li>
+<li><strong>Email:</strong> shaarugesh6@gmail.com</li>
+<li><strong>GitHub:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh">github.com/Sanjai-Shaarugesh</a></li>
+<li><strong>LinkedIn:</strong> <a
+href="https://www.linkedin.com/in/shaarugesh-sudhakar-462876290">linkedin.com/in/shaarugesh-sudhakar-462876290</a></li>
+<li><strong>Twitter:</strong> <a
+href="https://x.com/shaarugesh28091">x.com/shaarugesh28091</a></li>
+<li><strong>Portfolio:</strong> <a
+href="https://shaaru-portfolio.vercel.app/">shaaru-portfolio.vercel.app</a></li>
+</ul>
+<p><strong>Birthplace &amp; Location</strong> -
+<strong>Location:</strong> Tamil Nadu, India -
+<strong>TimeZone:</strong> UTC+05:30 (Indian Standard Time)</p>
+<p><strong>Education</strong> - <strong>University:</strong> KCG College
+of Technology, Chennai - <strong>Degree:</strong> B.Tech - <strong>Field
+of study:</strong> Computer Science and Engineering - <strong>Current
+year:</strong> 2nd year (Expected graduation: 2027)</p>
+<h2 id="potential-mentors">3) Potential Mentor(s)</h2>
+<ul>
+<li><strong>Primary Mentor:</strong> <a
+href="https://github.com/m-czernek">m-czernek</a></li>
+<li><strong>Secondary Mentors:</strong> <a
+href="https://github.com/wweellddeerr">wweellddeerr</a>, <a
+href="https://github.com/admd">admd</a></li>
+</ul>
+<h2 id="personal-background">4) Personal Background</h2>
+<h3 id="work-experience-open-source-contributions">Work Experience &amp;
+Open Source Contributions</h3>
+<h4 id="significant-open-source-projects">Significant Open Source
+Projects</h4>
+<ol type="1">
+<li><p><strong>Advanced-Weather-Companion for GNOME Shell</strong></p>
+<ul>
+<li>Developed a comprehensive GNOME Shell extension that provides daily,
+hourly, and weekly weather forecasts</li>
+<li>Implemented responsive UI with dynamic updates based on location
+services</li>
+<li>Technologies: JavaScript, GNOME Shell API, OpenWeatherMap API</li>
+<li>Repository:
+https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion</li>
+</ul>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png"
+alt="GNOME Weather Extension" />
+<figcaption aria-hidden="true">GNOME Weather Extension</figcaption>
+</figure></li>
+<li><p><strong>githooo (OpenSource Dev Explorer)</strong></p>
+<ul>
+<li>Created a SvelteKit web application that aggregates and displays
+profiles of open source developers from GitHub</li>
+<li>Implemented features like filtering, sorting, and detailed profile
+views</li>
+<li>Technologies: SvelteKit, TypeScript, GitHub API, TailwindCSS</li>
+<li>Live demo: githooo.vercel.app</li>
+<li>Repository: https://github.com/Sanjai-Shaarugesh/githooo</li>
+</ul>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png"
+alt="githooo" />
+<figcaption aria-hidden="true">githooo</figcaption>
+</figure></li>
+<li><p>Speed Share (Files sharing app using webrtc)**</p>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png"
+alt="Speed share" />
+<figcaption aria-hidden="true">Speed share</figcaption>
+</figure>
+<ul>
+<li>Create a Astro(svelte) web application that allows users to share
+files with others using WebRTC</li>
+<li>Implemented real-time file transfer using WebRTC</li>
+<li>Technologies: SvelteKit, TypeScript, WebRTC, TailwindCSS</li>
+<li>Live demo: <a
+href="https://speed-shares.vercel.app">https://speed-shares.vercel.app</a></li>
+<li>Repository: <a
+href="https://github.com/Sanjai-Shaarugesh/Speed-share">https://github.com/Sanjai-Shaarugesh/Speed-share</a></li>
+</ul>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png"
+alt="Speed share" />
+<figcaption aria-hidden="true">Speed share</figcaption>
+</figure>
+<h3 id="noteworthy-contributions">Noteworthy Contributions</h3>
+<p><strong>OneBusAway Wayfinder</strong></p>
+<ul>
+<li><a href="https://github.com/OneBusAway/wayfinder/pull/239">PR
+#239</a>: Enhanced Stop Details with Interactive Map Background
+<ul>
+<li>Improved user experience by adding an interactive map background to
+stop detail pages</li>
+<li>Implemented responsive design considerations for various device
+sizes</li>
+<li>Added accessibility features for keyboard navigation and screen
+readers</li>
+</ul></li>
+</ul>
+<p><strong>NiiVue Medical Imaging</strong></p>
+<ul>
+<li><a href="https://github.com/niivue/niivue/pull/1260">PR #1260</a>:
+UI improvements with new features
+<ul>
+<li>Implemented new visualization controls for medical imaging data</li>
+<li>Enhanced user interface with improved contrast and
+accessibility</li>
+<li>Added keyboard shortcuts for common operations</li>
+</ul></li>
+</ul>
+<p><strong>Anki Flashcards</strong></p>
+<ul>
+<li><a href="https://github.com/ankitects/anki/pull/3899">PR #3899</a>:
+Fixed timestamp handling in AnkiDroid backend
+<ul>
+<li>Identified and resolved a critical bug in timestamp handling</li>
+<li>Enhanced data integrity across device synchronization</li>
+<li>Improved test coverage for the affected functionality</li>
+</ul></li>
+</ul>
+<p><strong>Electron Forge</strong></p>
+<ul>
+<li><a
+href="https://github.com/electron-forge/electron-forge-docs/pull/227">PR
+#227</a>: Documentation fix for issue #223
+<ul>
+<li>Clarified setup instructions for new developers</li>
+<li>Added examples for common configuration scenarios</li>
+<li>Improved navigation structure in documentation</li>
+</ul></li>
+</ul>
+<h3 id="technical-skills">Technical Skills</h3>
+<p><strong>Programming Languages:</strong></p>
+<ul>
+<li><strong>Expert:</strong> JavaScript, TypeScript, HTML, CSS</li>
+<li><strong>Proficient:</strong> Python, Rust, C, C++</li>
+<li><strong>Familiar:</strong> Java, Kotlin, Go</li>
+</ul>
+<p><strong>Frameworks &amp; Libraries:</strong></p>
+<ul>
+<li><strong>Frontend:</strong> Svelte/SvelteKit, React, Vue.js, Next.js,
+Nuxt.js</li>
+<li><strong>CSS:</strong> TailwindCSS, SCSS, Bootstrap</li>
+<li><strong>State Management:</strong> Redux, Zustand, Pinia</li>
+</ul>
+<p><strong>Testing:</strong></p>
+<ul>
+<li><strong>Frameworks:</strong> Jest, Vitest, Playwright, Cypress</li>
+<li><strong>Methodologies:</strong> TDD, BDD, E2E, Unit,
+Integration</li>
+</ul>
+<p><strong>Accessibility:</strong></p>
+<ul>
+<li>WCAG 2.1 standards and guidelines</li>
+<li>Screen reader testing (NVDA, VoiceOver)</li>
+<li>Keyboard navigation and focus management</li>
+<li>Color contrast and semantic HTML implementation</li>
+</ul>
+<p><strong>Developer Tools:</strong></p>
+<ul>
+<li>Git, GitHub Actions, Docker, VS Code , vim , neovim</li>
+<li>Webpack, Vite, Rollup</li>
+<li>npm, yarn, pnpm , bun , bash</li>
+</ul></li>
+</ol>
+<h2 id="project-goals">5) Project Goals</h2>
+<ol type="1">
+<li><strong>Core Snap Package Management:</strong>
+<ul>
+<li>Implement backend support for Snap package operations (install,
+update, remove)</li>
+<li>Create API endpoints for Snap package management</li>
+<li>Develop UI components for Snap package operations</li>
+<li>Ensure proper error handling and status reporting</li>
+</ul></li>
+<li><strong>Snap Channel Management:</strong>
+<ul>
+<li>Enable channel selection (stable, candidate, beta, edge) for
+packages</li>
+<li>Implement channel switching functionality</li>
+<li>Add support for track/risk combinations</li>
+<li>Create UI for visualizing available channels</li>
+</ul></li>
+<li><strong>Airgapped Environment Support:</strong>
+<ul>
+<li>Implement Snap package caching mechanism</li>
+<li>Create workflow for importing Snap packages into airgapped
+environments</li>
+<li>Enable offline catalog management</li>
+<li>Develop validation tools for package integrity</li>
+</ul></li>
+<li><strong>Integration &amp; Testing:</strong>
+<ul>
+<li>Integrate with existing Uyuni package management infrastructure</li>
+<li>Create comprehensive test suite (unit, integration, E2E)</li>
+<li>Develop documentation for system administrators</li>
+<li>Ensure backward compatibility with existing configurations</li>
+</ul></li>
+</ol>
+<h2 id="detailed-project-proposal">6) Detailed Project Proposal</h2>
+<h3 id="a-april-1---may-3-preparation-phase-pre-gsoc">a) April 1 - May
+3: Preparation Phase (Pre-GSoC)</h3>
+<ul>
+<li>Set up local Uyuni development environment using sumaform</li>
+<li>Study Uyuni architecture, APIs, and database schema</li>
+<li>Research Snap package management technology and APIs</li>
+<li>Make initial contributions to become familiar with the codebase</li>
+<li>Create proof-of-concept implementations for key components</li>
+<li>Document current state of Ubuntu support in Uyuni</li>
+</ul>
+<h3 id="b-may-4---may-28-community-bonding-period">b) May 4 - May 28:
+Community Bonding Period</h3>
+<ul>
+<li>Establish regular communication schedule with mentors (weekly video
+calls)</li>
+<li>Create detailed project roadmap with milestones and
+deliverables</li>
+<li>Set up GitHub project board for task tracking</li>
+<li>Refine technical approach based on mentor feedback</li>
+<li>Create database schema design for Snap package metadata</li>
+<li>Prepare development environment with necessary testing tools</li>
+<li>Begin preliminary implementation of core components</li>
+</ul>
+<h3
+id="c-may-29---july-3-coding-phase-1---core-snap-package-management">c)
+May 29 - July 3: Coding Phase 1 - Core Snap Package Management</h3>
+<p><strong>Week 1 (May 29 to June 4)</strong> - Implement backend
+services for Snap package information retrieval - Create database models
+for Snap package metadata - Develop Salt modules for Snap package
+operations - Begin implementation of REST API endpoints for Snap
+operations</p>
+<p><strong>Week 2 (June 5 to June 11)</strong> - Complete REST API
+implementation for core Snap operations - Implement data caching
+strategies for Snap package metadata - Create service layer for Snap
+package management - Begin unit testing of core components</p>
+<p><strong>Week 3 (June 12 to June 18)</strong> - Implement UI
+components for Snap package listings - Create package detail views with
+Snap-specific information - Develop installation/removal workflows in UI
+- Implement status monitoring for Snap operations</p>
+<p><strong>Week 4 (June 19 to June 25)</strong> - Add support for Snap
+package updates and refreshes - Implement package dependency
+visualization - Create robust error handling for Snap operations - Begin
+integration testing of core features</p>
+<figure>
+<img src="architecture-diagram.svg"
+alt="Uyuni Snap Package Support Architecture" />
+<figcaption aria-hidden="true">Uyuni Snap Package Support
+Architecture</figcaption>
+</figure>
+<p><strong>Week 5 (June 26 to July 3)</strong> - Refine and polish UI
+implementations - Enhance logging and monitoring for Snap operations -
+Complete comprehensive testing of core features - Prepare midterm
+evaluation materials and documentation</p>
+<h3 id="d-july-4---july-12-midterm-evaluations">d) July 4 - July 12:
+Midterm Evaluations</h3>
+<ul>
+<li>Review Phase 1 accomplishments with mentors</li>
+<li>Demonstrate core Snap package management capabilities</li>
+<li>Refactor code based on mentor feedback</li>
+<li>Finalize test strategy for Phase 2</li>
+<li>Create detailed plan for channel management implementation</li>
+</ul>
+<h3
+id="e-july-13---aug-24-coding-phase-2---channel-management-airgapped-support">e)
+July 13 - Aug 24: Coding Phase 2 - Channel Management &amp; Airgapped
+Support</h3>
+<p><strong>Week 6-7 (July 13 - July 26)</strong> - Implement Snap
+channel management backend services - Create database models for
+tracking channel configuration - Develop UI components for channel
+selection and switching - Implement business logic for channel risk
+assessment - Add support for track/risk combinations in package
+management</p>
+<p><strong>Week 8-9 (July 27 - August 9)</strong> - Begin implementation
+of airgapped environment support - Create Snap package caching mechanism
+- Implement offline catalog management - Develop package import/export
+functionality - Create validation tools for package integrity in
+airgapped scenarios</p>
+<p><strong>Week 10-11 (August 10 - August 17)</strong> - Implement
+integration with existing Uyuni infrastructure - Ensure compatibility
+with traditional package management - Develop unified package management
+views - Create advanced filtering and search capabilities - Implement
+batch operations for Snap packages</p>
+<p><strong>Week 12 (August 18 - August 24)</strong> - Final polishing of
+all features - Complete comprehensive testing suite - Fix any remaining
+bugs - Prepare final documentation - Create administrator guides and
+tutorials</p>
+<h3 id="f-aug-25---aug-29-final-phase">f) Aug 25 - Aug 29: Final
+Phase</h3>
+<ul>
+<li>Submit final code as PR to Uyuni repository</li>
+<li>Create comprehensive Wiki page documenting design decisions and
+evaluation</li>
+<li>Write detailed blog post about the project experience</li>
+<li>Record demo video showcasing new capabilities</li>
+<li>Plan for post-GSoC maintenance and enhancements</li>
+</ul>
+<h3 id="project-timeline-summary">Project Timeline Summary</h3>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 35%" />
+<col style="width: 37%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Time Period</th>
+<th>GSOC 2025 Phase</th>
+<th>Key Deliverables</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>April 1 - May 3</td>
+<td>Preparation</td>
+<td>- Initial contributions<br>- Local development setup<br>-
+Preliminary research</td>
+</tr>
+<tr class="even">
+<td>May 4 - May 28</td>
+<td>Community Bonding</td>
+<td>- Project roadmap<br>- Communication channels<br>- Database schema
+design</td>
+</tr>
+<tr class="odd">
+<td>May 29 - July 3</td>
+<td>Coding Phase 1</td>
+<td>- Core Snap package management<br>- REST API implementation<br>-
+Basic UI components<br>- Unit testing framework</td>
+</tr>
+<tr class="even">
+<td>July 4 - July 12</td>
+<td>Midterm Evaluation</td>
+<td>- Progress documentation<br>- Demonstration of core features<br>-
+Phase 2 detailed plan</td>
+</tr>
+<tr class="odd">
+<td>July 13 - Aug 24</td>
+<td>Coding Phase 2</td>
+<td>- Channel management<br>- Airgapped support<br>- Integration with
+existing systems<br>- Comprehensive testing</td>
+</tr>
+<tr class="even">
+<td>Aug 25 - Aug 29</td>
+<td>Final Evaluation</td>
+<td>- Complete PR to Uyuni<br>- Wiki documentation<br>- Blog post and
+video demo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="planned-gsoc-work-hours">7) Planned GSoC Work Hours</h2>
+<p><strong>Commitments &amp; Availability</strong> - I commit to
+dedicate 25+ hours per week (175+ hours total) to this project with no
+planned personal vacations or travel. - My working hours are as follows:
+- Weekdays: 5-6 Hours - UTC+05:30 (IST) - 9:00 AM - 12:00 PM - 2:00 PM -
+5:00 PM - Weekends: 4-5 Hours - UTC+05:30 (IST) - 10:00 AM - 1:00 PM -
+3:00 PM - 5:00 PM (as needed) - I can adapt my schedule to accommodate
+mentor availability for meetings in different time zones. - My academic
+semester ends in early May, allowing significant dedication to GSoC
+during summer.</p>
+<h2 id="skill-set">8) Skill Set</h2>
+<p><strong>Why I’m Qualified:</strong> - Strong experience with Java and
+Python, the primary languages used in Uyuni - Deep understanding of SQL
+and PostgreSQL for database operations - Practical experience with Linux
+systems administration, particularly Ubuntu - Familiarity with package
+management systems including Snap - Experience with Salt configuration
+management - Strong testing methodology background - Previous
+contributions to open source projects</p>
+<h2 id="more-about-me">9) More About Me</h2>
+<p>I’m particularly passionate about systems management and automation
+because I believe in eliminating repetitive tasks to allow
+administrators to focus on more valuable work. My interest in the Uyuni
+project stems from its comprehensive approach to systems management and
+its importance in enterprise environments.</p>
+<p>What excites me most about this particular project is the opportunity
+to bridge an important gap in Uyuni’s Ubuntu support. As Ubuntu
+continues to transition toward Snap packages, organizations need robust
+tools to manage this new paradigm. By implementing Snap support in
+Uyuni, we can ensure that administrators maintain a consistent
+management approach regardless of package format.</p>
+<p>Beyond technical skills, I bring a pragmatic problem-solving approach
+and attention to user experience. I understand that systems
+administrators rely on tools like Uyuni daily, and every feature must be
+intuitive, reliable, and efficient. My background in both development
+and systems administration gives me perspective on both the
+implementation details and the practical usage patterns.</p>
+<p>The Uyuni project’s mission of providing comprehensive systems
+management through open source software aligns perfectly with my belief
+in the power of open source to drive innovation. I would be honored to
+contribute to making Uyuni even more versatile and valuable for
+organizations worldwide.</p>
+<p>I look forward to the opportunity to collaborate with the Uyuni
+community and help address this important capability gap.</p>
+<h2 id="references-resources">10) References &amp; Resources</h2>
+<ul>
+<li><a href="https://www.uyuni-project.org/uyuni-docs/">Uyuni Project
+Documentation</a></li>
+<li><a href="https://github.com/uyuni-project/uyuni">Uyuni GitHub
+Repository</a></li>
+<li><a
+href="https://www.uyuni-project.org/uyuni-docs/en/reference/api.html">Uyuni
+API Documentation</a></li>
+<li><a href="https://snapcraft.io/docs">Ubuntu Snap
+Documentation</a></li>
+<li><a href="https://api.snapcraft.io/docs/">Snap Store API
+Documentation</a></li>
+<li><a
+href="https://www.uyuni-project.org/uyuni-docs/en/uyuni/client-configuration/supported-features-ubuntu.html">Uyuni
+Current Ubuntu Support</a></li>
+<li><a href="https://github.com/uyuni-project/sumaform">Sumaform
+Development Environment</a></li>
+</ul>

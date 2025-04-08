@@ -1,0 +1,710 @@
+<div data-align="center">
+<p><img src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png" alt="gsoc">
+<img src="https://avatars.githubusercontent.com/u/3320903?s=200&v=4" style="margin-left: 20px; border-radius: 5px;"  width=130 alt="logo"></p>
+</div>
+<h1
+id="google-summer-of-code-2025-ankidroid-multi-profile-support">Google
+Summer of Code 2025: AnkiDroid Multi-Profile Support</h1>
+<h2 id="project-information">1) Project Information</h2>
+<p><strong>Project Title:</strong> AnkiDroid Multi-Profile
+Implementation: Bringing User Profiles to Android</p>
+<p><strong>Project Prerequisites:</strong> - <a
+href="https://github.com/ankidroid/Anki-Android">AnkiDroid GitHub
+Repository</a> - <a
+href="https://github.com/ankidroid/Anki-Android/issues/2545">Multi-Profile
+Feature Request #2545</a> - <a
+href="https://github.com/ankitects/anki/blob/main/pylib/anki/profiles.py">Anki
+Desktop Profile Implementation</a></p>
+<p><strong>Project Summary:</strong> This project addresses a critical
+feature gap in AnkiDroid: the lack of multi-profile support, which has
+been requested by users for over 5 years. Currently, AnkiDroid only
+supports a single profile per installation, forcing users with multiple
+study domains or shared devices to maintain separate installations or
+constantly re-sync accounts. I will implement a comprehensive
+multi-profile system that enables users to create, switch between, and
+manage multiple profiles on a single device, each with isolated
+collections, preferences, and AnkiWeb sync credentials. The
+implementation will follow the proven architecture from Anki Desktop
+while adapting to Android’s storage framework and security model. Key
+deliverables include a secure profile management interface, optimized
+storage structure for multiple collections, AnkiWeb integration with
+per-profile credentials, and a seamless migration path for existing
+users. This feature will significantly improve AnkiDroid’s usability in
+family, educational, and multi-domain learning contexts.</p>
+<h2 id="contributor-information">2) Contributor Information</h2>
+<ul>
+<li><strong>Name:</strong> Sanjai Shaarugesh</li>
+<li><strong>Email:</strong> shaarugesh6@gmail.com</li>
+<li><strong>GitHub:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh">github.com/Sanjai-Shaarugesh</a></li>
+<li><strong>LinkedIn:</strong> <a
+href="https://www.linkedin.com/in/shaarugesh-sudhakar-462876290">linkedin.com/in/shaarugesh-sudhakar-462876290</a></li>
+<li><strong>Twitter:</strong> <a
+href="https://x.com/shaarugesh28091">x.com/shaarugesh28091</a></li>
+<li><strong>Portfolio:</strong> <a
+href="https://shaaru-portfolio.vercel.app">shaaru-portfolio.vercel.app</a></li>
+</ul>
+<p><strong>Location &amp; Availability</strong> -
+<strong>Location:</strong> Tamil Nadu, India -
+<strong>TimeZone:</strong> UTC+05:30 (Indian Standard Time) -
+<strong>Availability:</strong> 30+ hours/week, flexible for
+international meetings</p>
+<p><strong>Education</strong> - <strong>University:</strong> KCG College
+of Technology, Chennai - <strong>Degree:</strong> B.Tech in Computer
+Science and Engineering - <strong>Relevant Coursework:</strong> Mobile
+Application Development, Database Systems, Software Engineering, UI/UX
+Design - <strong>Expected graduation:</strong> May 2027</p>
+<h2 id="mentor-communication-plan">3) Mentor Communication Plan</h2>
+<p><strong>Primary Mentor:</strong> David Allison (AnkiDroid Maintainer)
+- Weekly video meetings: Every Monday at 15:00 UTC (8:30 PM IST) - Daily
+status updates via GitHub discussions/issues - Code reviews via pull
+requests with detailed documentation</p>
+<p><strong>Secondary Mentor:</strong> Mike Hardy (AnkiDroid Contributor)
+- Bi-weekly technical consultations - Specific reviews for database and
+sync architecture - Available for troubleshooting complex issues</p>
+<p><strong>Communication Tools:</strong> - GitHub Issues and Pull
+Requests for formal development - AnkiDroid Discord server for quick
+queries (#gsoc-2025 channel) - Weekly progress reports in markdown
+format - Shared development journal for recording decisions and
+insights</p>
+<h2 id="prior-experience-qualifications">4) Prior Experience &amp;
+Qualifications</h2>
+<h3 id="a-noteworthy-contributions">A) Noteworthy Contributions</h3>
+<p><strong>OneBusAway Wayfinder</strong> - <a
+href="https://github.com/OneBusAway/wayfinder/pull/239">PR #239</a>:
+Enhanced Stop Details with Interactive Map Background - Improved user
+experience by adding an interactive map background to stop detail pages
+- Implemented responsive design considerations for various device sizes
+- Added accessibility features for keyboard navigation and screen
+readers</p>
+<p><strong>NiiVue Medical Imaging</strong> - <a
+href="https://github.com/niivue/niivue/pull/1260">PR #1260</a>: UI
+improvements with new features - Implemented new visualization controls
+for medical imaging data - Enhanced user interface with improved
+contrast and accessibility - Added keyboard shortcuts for common
+operations</p>
+<p><strong>Anki Flashcards</strong> - <a
+href="https://github.com/ankitects/anki/pull/3899">PR #3899</a>: Fixed
+timestamp handling in AnkiDroid backend - Identified and resolved a
+critical bug in timestamp handling - Enhanced data integrity across
+device synchronization - Improved test coverage for the affected
+functionality</p>
+<p><strong>Electron Forge</strong> - <a
+href="https://github.com/electron-forge/electron-forge-docs/pull/227">PR
+#227</a>: Documentation fix for issue #223 - Clarified setup
+instructions for new developers - Added examples for common
+configuration scenarios - Improved navigation structure in
+documentation</p>
+<p>### Technical Skills</p>
+<p><strong>Programming Languages:</strong> - <strong>Expert:</strong>
+JavaScript, TypeScript, HTML, CSS - <strong>Proficient:</strong> Python,
+Rust, C, C++ - <strong>Familiar:</strong> Java, Kotlin, Go</p>
+<p><strong>Frameworks &amp; Libraries:</strong> -
+<strong>Frontend:</strong> Svelte/SvelteKit, React, Vue.js, Next.js,
+Nuxt.js - <strong>CSS:</strong> TailwindCSS, SCSS, Bootstrap -
+<strong>State Management:</strong> Redux, Zustand, Pinia</p>
+<p><strong>Testing:</strong> - <strong>Frameworks:</strong> Jest,
+Vitest, Playwright, Cypress - <strong>Methodologies:</strong> TDD, BDD,
+E2E, Unit, Integration</p>
+<p><strong>Accessibility:</strong> - WCAG 2.1 standards and guidelines -
+Screen reader testing (NVDA, VoiceOver) - Keyboard navigation and focus
+management - Color contrast and semantic HTML implementation</p>
+<p><strong>Developer Tools:</strong> - Git, GitHub Actions, Docker, VS
+Code , vim , neovim - Webpack, Vite, Rollup - npm, yarn, pnpm , bun ,
+bash</p>
+<h3 id="b-highlighted-projects-contributions">B) Highlighted Projects
+&amp; Contributions</h3>
+<p><strong>1. User Management System for Educational Platform</strong> -
+Built multi-user authentication and data isolation system for an
+educational platform - <strong>Technical Achievement:</strong>
+Implemented secure credential storage with profile-specific encryption -
+<strong>Relevance:</strong> Directly applicable experience for AnkiDroid
+multi-profile implementation - <strong>Technologies:</strong> Kotlin,
+Room Database, EncryptedSharedPreferences</p>
+<p><strong>2. Advanced-Weather-Companion for GNOME Shell</strong> -
+Developed comprehensive GNOME Shell extension with complex data
+management - <strong>Technical Achievement:</strong> Created modular
+architecture with clean separation of concerns -
+<strong>Technologies:</strong> JavaScript, GNOME Shell API,
+OpenWeatherMap API - <strong>Repository:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion">github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion</a></p>
+<figure>
+<img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png"
+alt="GNOME Weather Extension" />
+<figcaption aria-hidden="true">GNOME Weather Extension</figcaption>
+</figure>
+<p><strong>3. Speed Share (WebRTC File Transfer App)</strong> - Built
+real-time file sharing application with secure data management -
+<strong>Technical Achievement:</strong> Implemented encrypted data
+channels with user authentication - <strong>Technologies:</strong>
+SvelteKit, TypeScript, WebRTC, TailwindCSS - <strong>Live demo:</strong>
+<a href="https://speed-shares.vercel.app">speed-shares.vercel.app</a> -
+<strong>Repository:</strong> <a
+href="https://github.com/Sanjai-Shaarugesh/Speed-share">github.com/Sanjai-Shaarugesh/Speed-share</a></p>
+<p><img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png"
+alt="Speed Share" /> <img
+src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png"
+alt="Speed Share" /></p>
+<h3 id="c-relevant-technical-skills">C) Relevant Technical Skills</h3>
+<p><strong>Android Development (1-10 scale):</strong> - Java: 9/10 - 3+
+years experience, built 7+ production apps - Kotlin: 8/10 - 2+ years
+experience, primary language for recent projects - Android SDK: 8/10 -
+Deep knowledge of framework components and lifecycle - Room/SQLite: 9/10
+- Extensive database optimization experience</p>
+<p><strong>Critical Project-Specific Skills:</strong> - <strong>Data
+Isolation:</strong> Implemented multi-user systems with secure data
+separation - <strong>Database Migration:</strong> Created complex DB
+migration paths for production apps - <strong>Authentication:</strong>
+Built secure credential storage systems with encryption - <strong>UI/UX
+Design:</strong> Created intuitive user interfaces for complex
+workflows</p>
+<h2 id="detailed-project-understanding">5) Detailed Project
+Understanding</h2>
+<h3 id="current-limitations-in-ankidroid">Current Limitations in
+AnkiDroid</h3>
+<p>AnkiDroid currently supports only a single profile per installation,
+which creates several significant limitations:</p>
+<ol type="1">
+<li><strong>Shared Device Problems:</strong></li>
+</ol>
+<ul>
+<li>Families sharing tablets cannot maintain separate progress</li>
+<li>Educational settings cannot support multiple students</li>
+<li>User privacy is compromised on shared devices</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Multiple Domain Challenges:</strong></li>
+</ol>
+<ul>
+<li>Users studying multiple subjects cannot separate their
+collections</li>
+<li>AnkiWeb sync requires complete account switching</li>
+<li>Statistics and progress are merged across all subjects</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Technical Implications:</strong></li>
+</ol>
+<ul>
+<li>Single collection database limits architectural options</li>
+<li>Hard-coded paths for media storage</li>
+<li>Global preferences instead of per-profile settings</li>
+</ul>
+<p>The lack of multi-profile support is a top-requested feature (<a
+href="https://github.com/ankidroid/Anki-Android/issues/2545">Issue
+#2545</a>) with 100+ comments and reactions, demonstrating significant
+user demand.</p>
+<h3 id="detailed-architecture-proposal">Detailed Architecture
+Proposal</h3>
+<p>My implementation will address these limitations through a
+comprehensive architecture:</p>
+<figure>
+<img src="AnkiDroid.svg" alt="AnkiDroid Multi-Profile Architecture" />
+<figcaption aria-hidden="true">AnkiDroid Multi-Profile
+Architecture</figcaption>
+</figure>
+<ol type="1">
+<li><strong>Profile Management Layer:</strong></li>
+</ol>
+<ul>
+<li><code>ProfileManager</code> singleton to handle profile
+operations</li>
+<li>Secure storage of profile metadata and credentials</li>
+<li>Profile switching with proper lifecycle management</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Storage Architecture:</strong></li>
+</ol>
+<ul>
+<li>Profile-specific directories for collections and media</li>
+<li>Isolated SQLite databases for each profile</li>
+<li>Shared code that operates on the “active” profile</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Security Implementation:</strong></li>
+</ol>
+<ul>
+<li>Encrypted storage of AnkiWeb credentials</li>
+<li>Optional PIN/biometric protection for profiles</li>
+<li>Secure export/import of profile data</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Integration Points:</strong></li>
+</ol>
+<ul>
+<li>Modified collection loader to use active profile path</li>
+<li>Updated sync client to use profile-specific credentials</li>
+<li>Adapted preferences system for per-profile settings</li>
+</ul>
+<h2 id="project-goals-and-deliverables">6) Project Goals and
+Deliverables</h2>
+<h3 id="primary-goals">Primary Goals</h3>
+<ol type="1">
+<li><strong>Core Multi-Profile System:</strong></li>
+</ol>
+<ul>
+<li>Implement complete profile management system (create, switch, edit,
+delete)</li>
+<li>Create secure storage for profile metadata and credentials</li>
+<li>Develop proper file system structure for multiple collections</li>
+<li><strong>Success Metric:</strong> Seamless operation of 10+ profiles
+on a single device</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>User Interface and Experience:</strong></li>
+</ol>
+<ul>
+<li>Design intuitive profile selection and management screens</li>
+<li>Implement profile customization (colors, icons, names)</li>
+<li>Create visual indicators for active profile throughout app</li>
+<li><strong>Success Metric:</strong> User testing with 90%+ task
+completion rate</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>AnkiWeb Integration:</strong></li>
+</ol>
+<ul>
+<li>Implement per-profile AnkiWeb credentials storage</li>
+<li>Create profile-specific sync mechanism</li>
+<li>Ensure proper handling of sync conflicts between profiles</li>
+<li><strong>Success Metric:</strong> Successful sync of 5+ different
+AnkiWeb accounts</li>
+</ul>
+<ol start="4" type="1">
+<li><strong>Migration and Compatibility:</strong></li>
+</ol>
+<ul>
+<li>Create migration path for existing users to multi-profile
+system</li>
+<li>Ensure backward compatibility with previous versions</li>
+<li>Maintain export/import functionality with profile support</li>
+<li><strong>Success Metric:</strong> 100% data preservation during
+migration tests</li>
+</ul>
+<h3 id="secondary-goals-time-permitting">Secondary Goals (Time
+Permitting)</h3>
+<ol type="1">
+<li><strong>Advanced Security Features:</strong></li>
+</ol>
+<ul>
+<li>Implement biometric authentication for sensitive profiles</li>
+<li>Create profile-specific backup/restore functionality</li>
+<li><strong>Success Metric:</strong> Security audit passing all
+vulnerability tests</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Profile Analytics:</strong></li>
+</ol>
+<ul>
+<li>Implement profile-specific usage statistics</li>
+<li>Create comparison tools between profiles</li>
+<li><strong>Success Metric:</strong> Accurate tracking of per-profile
+metrics</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Quick Profile Switching:</strong></li>
+</ol>
+<ul>
+<li>Add profile switching from notification area</li>
+<li>Create homescreen shortcuts for specific profiles</li>
+<li><strong>Success Metric:</strong> Profile switch time under 2
+seconds</li>
+</ul>
+<h2 id="technical-implementation-details">7) Technical Implementation
+Details</h2>
+<h3 id="a-profile-data-structure">A) Profile Data Structure</h3>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode kotlin"><code class="sourceCode kotlin"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">* Represents a user profile in AnkiDroid</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">*/</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="kw">data</span> <span class="kw">class</span> Profile<span class="op">(</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">id</span><span class="op">:</span> <span class="dt">String</span> <span class="op">=</span> UUID<span class="op">.</span>randomUUID<span class="op">().</span>toString<span class="op">(),</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">name</span><span class="op">:</span> <span class="dt">String</span><span class="op">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">created</span><span class="op">:</span> <span class="dt">Long</span> <span class="op">=</span> System<span class="op">.</span>currentTimeMillis<span class="op">(),</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">lastAccessed</span><span class="op">:</span> <span class="dt">Long</span> <span class="op">=</span> System<span class="op">.</span>currentTimeMillis<span class="op">(),</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">colorIndex</span><span class="op">:</span> <span class="dt">Int</span> <span class="op">=</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">iconIndex</span><span class="op">:</span> <span class="dt">Int</span> <span class="op">=</span> <span class="dv">0</span><span class="op">,</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">syncUsername</span><span class="op">:</span> <span class="dt">String</span><span class="op">?</span> <span class="op">=</span> null<span class="op">,</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>   <span class="co">// Store hash only, not the actual password</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">syncPasswordHash</span><span class="op">:</span> <span class="dt">String</span><span class="op">?</span> <span class="op">=</span> null<span class="op">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">syncEnabled</span><span class="op">:</span> <span class="dt">Boolean</span> <span class="op">=</span> false<span class="op">,</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>   <span class="kw">val</span> <span class="va">isSecured</span><span class="op">:</span> <span class="dt">Boolean</span> <span class="op">=</span> false</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="op">)</span></span></code></pre></div>
+<h3 id="b-file-structure-implementation">B) File Structure
+Implementation</h3>
+<p>The file system structure will be organized as follows:</p>
+<pre><code>AnkiDroid/
+├── profiles.json            # Profile metadata
+├── profiles/                # Profile-specific data
+│   ├── profile1/
+│   │   ├── collection.anki2 # Main database
+│   │   ├── collection.media # Media folder
+│   │   └── prefs.json       # Profile preferences
+│   ├── profile2/
+│   │   ├── collection.anki2
+│   │   ├── collection.media
+│   │   └── prefs.json
+│   └── ...
+└── shared/                  # Shared resources
+   └── ...</code></pre>
+<h3 id="c-profile-manager-implementation">C) Profile Manager
+Implementation</h3>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode kotlin"><code class="sourceCode kotlin"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">* Singleton manager for AnkiDroid profiles</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">*/</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">object</span> ProfileManager <span class="op">{</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>   <span class="kw">private</span> <span class="kw">const</span> <span class="kw">val</span> <span class="va">PROFILES_FILE</span> <span class="op">=</span> <span class="st">&quot;profiles.json&quot;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>   <span class="kw">private</span> <span class="kw">var</span> <span class="va">activeProfile</span><span class="op">:</span> Profile<span class="op">?</span> <span class="op">=</span> <span class="kw">null</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>   <span class="kw">private</span> <span class="kw">var</span> <span class="va">profiles</span> <span class="op">=</span> mutableListOf<span class="op">&lt;</span>Profile<span class="op">&gt;()</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>   <span class="co">/**</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">    * Load profiles from storage</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co">    */</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>   <span class="kw">fun</span> <span class="fu">loadProfiles</span><span class="op">(</span><span class="va">context</span><span class="op">:</span> <span class="dt">Context</span><span class="op">)</span> <span class="op">{</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Load profiles from encrypted storage</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">encryptedPrefs</span> <span class="op">=</span> createEncryptedPrefs<span class="op">(</span>context<span class="op">,</span> PROFILES_FILE<span class="op">)</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">profilesJson</span> <span class="op">=</span> encryptedPrefs<span class="op">.</span>getString<span class="op">(</span><span class="st">&quot;profiles&quot;</span><span class="op">,</span> <span class="st">&quot;[]&quot;</span><span class="op">)</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>       profiles <span class="op">=</span> Json<span class="op">.</span>decodeFromString<span class="op">(</span>profilesJson<span class="op">)</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>   <span class="op">}</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>   <span class="co">/**</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co">    * Create a new profile</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co">    */</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>   <span class="kw">fun</span> <span class="fu">createProfile</span><span class="op">(</span><span class="va">name</span><span class="op">:</span> <span class="dt">String</span><span class="op">,</span> <span class="va">colorIndex</span><span class="op">:</span> <span class="dt">Int</span><span class="op">,</span> <span class="va">iconIndex</span><span class="op">:</span> <span class="dt">Int</span><span class="op">):</span> <span class="dt">Profile</span> <span class="op">{</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">profile</span> <span class="op">=</span> Profile<span class="op">(</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>           name <span class="op">=</span> name<span class="op">,</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>           colorIndex <span class="op">=</span> colorIndex<span class="op">,</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>           iconIndex <span class="op">=</span> iconIndex</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>       <span class="op">)</span></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>       profiles<span class="op">.</span>add<span class="op">(</span>profile<span class="op">)</span></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>       saveProfiles<span class="op">()</span></span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>       <span class="kw">return</span> profile</span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>   <span class="op">}</span></span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>   <span class="co">/**</span></span>
+<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a><span class="co">    * Switch to a different profile</span></span>
+<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="co">    */</span></span>
+<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a>   suspend <span class="kw">fun</span> <span class="fu">switchToProfile</span><span class="op">(</span><span class="va">context</span><span class="op">:</span> <span class="dt">Context</span><span class="op">,</span> <span class="va">profileId</span><span class="op">:</span> <span class="dt">String</span><span class="op">):</span> <span class="dt">Boolean</span> <span class="op">{</span></span>
+<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Verify profile exists</span></span>
+<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">profile</span> <span class="op">=</span> profiles<span class="op">.</span>find <span class="op">{</span> it<span class="op">.</span>id <span class="op">==</span> profileId <span class="op">}</span> <span class="op">?:</span> <span class="kw">return</span> <span class="kw">false</span></span>
+<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Close current collection if open</span></span>
+<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>       CollectionManager<span class="op">.</span>closeCollection<span class="op">()</span></span>
+<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Update active profile</span></span>
+<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>       activeProfile <span class="op">=</span> profile</span>
+<span id="cb3-45"><a href="#cb3-45" aria-hidden="true" tabindex="-1"></a>       profile<span class="op">.</span>lastAccessed <span class="op">=</span> System<span class="op">.</span>currentTimeMillis<span class="op">()</span></span>
+<span id="cb3-46"><a href="#cb3-46" aria-hidden="true" tabindex="-1"></a>       saveProfiles<span class="op">()</span></span>
+<span id="cb3-47"><a href="#cb3-47" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb3-48"><a href="#cb3-48" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Update collection path</span></span>
+<span id="cb3-49"><a href="#cb3-49" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">profilePath</span> <span class="op">=</span> getProfilePath<span class="op">(</span>context<span class="op">,</span> profile<span class="op">.</span>id<span class="op">)</span></span>
+<span id="cb3-50"><a href="#cb3-50" aria-hidden="true" tabindex="-1"></a>       CollectionManager<span class="op">.</span>setCollectionPath<span class="op">(</span>profilePath<span class="op">)</span></span>
+<span id="cb3-51"><a href="#cb3-51" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb3-52"><a href="#cb3-52" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Load preferences for this profile</span></span>
+<span id="cb3-53"><a href="#cb3-53" aria-hidden="true" tabindex="-1"></a>       PreferenceManager<span class="op">.</span>loadProfilePreferences<span class="op">(</span>context<span class="op">,</span> profile<span class="op">.</span>id<span class="op">)</span></span>
+<span id="cb3-54"><a href="#cb3-54" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb3-55"><a href="#cb3-55" aria-hidden="true" tabindex="-1"></a>       <span class="kw">return</span> <span class="kw">true</span></span>
+<span id="cb3-56"><a href="#cb3-56" aria-hidden="true" tabindex="-1"></a>   <span class="op">}</span></span>
+<span id="cb3-57"><a href="#cb3-57" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb3-58"><a href="#cb3-58" aria-hidden="true" tabindex="-1"></a>   <span class="co">/**</span></span>
+<span id="cb3-59"><a href="#cb3-59" aria-hidden="true" tabindex="-1"></a><span class="co">    * Get path for profile collection</span></span>
+<span id="cb3-60"><a href="#cb3-60" aria-hidden="true" tabindex="-1"></a><span class="co">    */</span></span>
+<span id="cb3-61"><a href="#cb3-61" aria-hidden="true" tabindex="-1"></a>   <span class="kw">fun</span> <span class="fu">getProfilePath</span><span class="op">(</span><span class="va">context</span><span class="op">:</span> <span class="dt">Context</span><span class="op">,</span> <span class="va">profileId</span><span class="op">:</span> <span class="dt">String</span><span class="op">):</span> <span class="dt">String</span> <span class="op">{</span></span>
+<span id="cb3-62"><a href="#cb3-62" aria-hidden="true" tabindex="-1"></a>       <span class="kw">return</span> context<span class="op">.</span>getExternalFilesDir<span class="op">(</span><span class="kw">null</span><span class="op">)?.</span>absolutePath <span class="op">+</span> </span>
+<span id="cb3-63"><a href="#cb3-63" aria-hidden="true" tabindex="-1"></a>              <span class="st">&quot;/profiles/&quot;</span> <span class="op">+</span> profileId <span class="op">+</span> <span class="st">&quot;/collection.anki2&quot;</span></span>
+<span id="cb3-64"><a href="#cb3-64" aria-hidden="true" tabindex="-1"></a>   <span class="op">}</span></span>
+<span id="cb3-65"><a href="#cb3-65" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb3-66"><a href="#cb3-66" aria-hidden="true" tabindex="-1"></a>   <span class="co">// Additional methods for profile management...</span></span>
+<span id="cb3-67"><a href="#cb3-67" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h3 id="d-integration-with-ankiweb-sync">D) Integration with AnkiWeb
+Sync</h3>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode kotlin"><code class="sourceCode kotlin"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">/**</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co">* Extension of existing sync client to support multiple profiles</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">*/</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> ProfileAwareHttpSyncer<span class="op">(</span><span class="kw">private</span> <span class="kw">val</span> <span class="va">profileId</span><span class="op">:</span> <span class="dt">String</span><span class="op">)</span> <span class="op">:</span> <span class="dt">HttpSyncer</span> <span class="op">{</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>   <span class="kw">override</span> <span class="kw">fun</span> <span class="fu">sync</span><span class="op">():</span> <span class="dt">SyncResult</span> <span class="op">{</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Get credentials for specific profile</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">profile</span> <span class="op">=</span> ProfileManager<span class="op">.</span>getProfile<span class="op">(</span>profileId<span class="op">)</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">username</span> <span class="op">=</span> profile<span class="op">.</span>syncUsername</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>       <span class="kw">val</span> <span class="va">passwordHash</span> <span class="op">=</span> profile<span class="op">.</span>syncPasswordHash</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>       <span class="cf">if</span> <span class="op">(</span>username<span class="op">.</span>isNullOrEmpty<span class="op">()</span> <span class="op">||</span> passwordHash<span class="op">.</span>isNullOrEmpty<span class="op">())</span> <span class="op">{</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>           <span class="kw">return</span> SyncResult<span class="op">.</span>NO_CREDENTIALS</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>       <span class="op">}</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Set up sync with profile-specific credentials</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>       setupSync<span class="op">(</span>username<span class="op">,</span> passwordHash<span class="op">)</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>       </span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>       <span class="co">// Proceed with normal sync process</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>       <span class="kw">return</span> <span class="kw">super</span><span class="op">.</span>sync<span class="op">()</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a>   <span class="op">}</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a>   </span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a>   <span class="co">// Additional profile-specific sync methods...</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code></pre></div>
+<h2 id="detailed-project-timeline">8) Detailed Project Timeline</h2>
+<h3 id="pre-gsoc-april-1---may-3">Pre-GSoC: April 1 - May 3</h3>
+<ul>
+<li>Complete setup of development environment with latest AnkiDroid
+codebase</li>
+<li>Study current collection management and database architecture</li>
+<li>Analyze Anki Desktop multi-profile implementation</li>
+<li>Make 2-3 additional contributions to AnkiDroid codebase</li>
+<li>Create initial architecture document for multi-profile system</li>
+<li><strong>Deliverable:</strong> Development environment setup and
+initial PR merged</li>
+</ul>
+<h3 id="community-bonding-may-4---may-28">Community Bonding: May 4 - May
+28</h3>
+<ul>
+<li>Finalize detailed technical design document with mentor
+feedback</li>
+<li>Create GitLab/GitHub project board for task tracking</li>
+<li>Set up automated testing pipeline for project</li>
+<li>Develop UI wireframes and get community feedback</li>
+<li>Begin working on data models and basic structure</li>
+<li><strong>Deliverable:</strong> Approved technical design
+document</li>
+<li><strong>Mentor Touchpoint:</strong> Design review meeting</li>
+</ul>
+<h3 id="coding-phase-1-may-29---july-3">Coding Phase 1: May 29 - July
+3</h3>
+<p><strong>Week 1 (May 29 - June 4): Profile Models &amp;
+Storage</strong> - Implement Profile data model - Create secure storage
+for profile metadata - Implement ProfileManager with basic CRUD
+operations - Begin unit testing for profile management -
+<strong>Deliverable:</strong> Working Profile model with tests -
+<strong>Testing:</strong> Unit tests for Profile model</p>
+<p><strong>Week 2 (June 5 - June 11): File System Structure</strong> -
+Implement profile-specific directory structure - Create utility
+functions for path management - Modify collection loader to use profile
+paths - Begin implementation of profile switching mechanism -
+<strong>Deliverable:</strong> Working file system structure -
+<strong>Testing:</strong> File operations tests - <strong>Mentor
+Touchpoint:</strong> Storage implementation review</p>
+<p><strong>Week 3 (June 12 - June 18): Profile UI - Basic</strong> -
+Implement profile selection screen - Create profile creation workflow -
+Implement profile editing UI - Begin work on secure profile options -
+<strong>Deliverable:</strong> Basic profile UI screens -
+<strong>Testing:</strong> UI tests for profile operations</p>
+<p><strong>Week 4 (June 19 - June 25): Profile Switching</strong> -
+Complete profile switching implementation - Handle application lifecycle
+with profiles - Implement preference isolation between profiles - Create
+visual profile indicators in main UI - <strong>Deliverable:</strong>
+Working profile switching - <strong>Testing:</strong> End-to-end tests
+for profile operations - <strong>Mentor Touchpoint:</strong> Mid-phase
+code review</p>
+<p><strong>Week 5 (June 26 - July 3): Migration Support</strong> -
+Implement migration from single-profile to multi-profile - Create data
+validation during migration - Add backup creation before migration -
+Begin AnkiWeb credential management - Prepare midterm evaluation
+materials - <strong>Deliverable:</strong> Working migration system -
+<strong>Testing:</strong> Migration path testing</p>
+<h3 id="midterm-evaluation-july-4---july-12">Midterm Evaluation: July 4
+- July 12</h3>
+<ul>
+<li>Present core profile system implementation</li>
+<li>Demo profile creation, switching, and migration</li>
+<li>Refine code based on mentor feedback</li>
+<li>Plan detailed implementation for sync integration</li>
+<li><strong>Deliverable:</strong> Midterm report and demo video</li>
+</ul>
+<h3 id="coding-phase-2-july-13---aug-24">Coding Phase 2: July 13 - Aug
+24</h3>
+<p><strong>Week 6-7 (July 13 - July 26): AnkiWeb Integration</strong> -
+Implement secure storage for profile-specific AnkiWeb credentials -
+Create profile-aware sync client - Implement proper sync state tracking
+per profile - Handle media sync for multiple profiles -
+<strong>Deliverable:</strong> Working multi-profile sync -
+<strong>Testing:</strong> Sync tests with multiple accounts -
+<strong>Mentor Touchpoint:</strong> Sync architecture review</p>
+<p><strong>Week 8-9 (July 27 - August 9): Profile Security &amp;
+Customization</strong> - Implement PIN/biometric protection for profiles
+- Create profile customization options (colors, icons) - Add
+profile-specific theme support - Enhance visual indicators throughout
+app - <strong>Deliverable:</strong> Profile security and customization
+features - <strong>Testing:</strong> Security verification tests -
+<strong>Mentor Touchpoint:</strong> Security implementation review</p>
+<p><strong>Week 10-11 (August 10 - August 17): Advanced
+Features</strong> - Implement quick profile switching mechanism - Create
+profile-specific statistics tracking - Add home screen shortcuts for
+profiles - Implement profile export/import functionality -
+<strong>Deliverable:</strong> Advanced profile features -
+<strong>Testing:</strong> Performance testing for profile operations</p>
+<p><strong>Week 12 (August 18 - August 24): Finalization</strong> -
+Complete comprehensive testing - Fix identified bugs and edge cases -
+Optimize performance for devices with many profiles - Finalize user
+documentation - <strong>Deliverable:</strong> Completed feature set -
+<strong>Testing:</strong> Final integration testing - <strong>Mentor
+Touchpoint:</strong> Final code review</p>
+<h3 id="final-phase-aug-25---aug-29">Final Phase: Aug 25 - Aug 29</h3>
+<ul>
+<li>Submit final code with documentation</li>
+<li>Create user guide with screenshots</li>
+<li>Write technical documentation for developers</li>
+<li>Record demonstration video</li>
+<li><strong>Deliverable:</strong> Final submission package</li>
+</ul>
+<h2 id="risk-assessment-and-mitigation">9) Risk Assessment and
+Mitigation</h2>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 25%" />
+<col style="width: 17%" />
+<col style="width: 44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Likelihood</th>
+<th>Impact</th>
+<th>Mitigation Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Database migration complexity</td>
+<td>High</td>
+<td>High</td>
+<td>Create comprehensive testing suite; implement automatic backups
+before migration; develop fallback mechanism</td>
+</tr>
+<tr class="even">
+<td>Performance degradation with multiple collections</td>
+<td>Medium</td>
+<td>High</td>
+<td>Implement lazy loading; optimize database operations; conduct
+regular performance testing</td>
+</tr>
+<tr class="odd">
+<td>Security vulnerabilities in credential storage</td>
+<td>Medium</td>
+<td>High</td>
+<td>Use Android’s secure storage APIs; implement encryption; conduct
+security review with mentors</td>
+</tr>
+<tr class="even">
+<td>Compatibility issues with AnkiWeb sync</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Coordinate with Anki maintainers; thoroughly test sync protocol with
+multiple accounts; implement sync status indicators</td>
+</tr>
+<tr class="odd">
+<td>UI/UX confusion for existing users</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Create clear onboarding for existing users; implement intuitive
+navigation patterns; conduct user testing</td>
+</tr>
+<tr class="even">
+<td>Time overrun on complex features</td>
+<td>Medium</td>
+<td>Medium</td>
+<td>Prioritize core functionality; create modular implementation plan;
+maintain contingency buffer in schedule</td>
+</tr>
+</tbody>
+</table>
+<h2 id="post-gsoc-maintenance-plan">10) Post-GSoC Maintenance Plan</h2>
+<p>I am committed to maintaining this feature beyond the GSoC
+period:</p>
+<ol type="1">
+<li><strong>Ongoing Support:</strong></li>
+</ol>
+<ul>
+<li>Addressing bug reports related to multi-profile implementation</li>
+<li>Maintaining compatibility with future AnkiDroid versions</li>
+<li>Providing support in community forums for users adopting
+multi-profile</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Feature Extensions:</strong></li>
+</ol>
+<ul>
+<li>Profile sharing capabilities</li>
+<li>Cloud backup options for profiles</li>
+<li>Enhanced profile analytics</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Knowledge Transfer:</strong></li>
+</ol>
+<ul>
+<li>Creating comprehensive documentation for future contributors</li>
+<li>Recording walkthrough videos of the implementation architecture</li>
+<li>Mentoring new contributors to the codebase</li>
+</ul>
+<h2 id="weekly-gsoc-work-hours">11) Weekly GSoC Work Hours</h2>
+<p>I commit to dedicating 30+ hours per week to this project:</p>
+<p><strong>Weekdays (UTC+05:30/IST):</strong> - Primary Development:
+9:00 AM - 12:00 PM (3 hours) - Code Review &amp; Testing: 2:00 PM - 5:00
+PM (3 hours)</p>
+<p><strong>Weekends (UTC+05:30/IST):</strong> - Feature Development:
+10:00 AM - 1:00 PM (3 hours) - Documentation &amp; Planning: 3:00 PM -
+5:00 PM (2 hours, as needed)</p>
+<p><strong>Availability for Meetings:</strong> - Flexible availability
+for mentor meetings - Can adjust schedule to accommodate US/European
+time zones - Available for emergency consultations with prior notice</p>
+<h2 id="why-this-project-matters">12) Why This Project Matters</h2>
+<p>Multi-profile support will transform how AnkiDroid is used in several
+important contexts:</p>
+<ol type="1">
+<li><strong>Educational Settings:</strong></li>
+</ol>
+<ul>
+<li>Teachers can set up profiles for different students on shared
+devices</li>
+<li>Different classes can use separate profiles with appropriate
+content</li>
+<li>Educational institutions can more easily adopt AnkiDroid for
+classroom use</li>
+</ul>
+<ol start="2" type="1">
+<li><strong>Family Environments:</strong></li>
+</ol>
+<ul>
+<li>Parents and children can share a single tablet without mixing
+progress</li>
+<li>Different family members can maintain personal learning
+journeys</li>
+<li>Privacy is maintained between users of shared devices</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Individual Learning:</strong></li>
+</ol>
+<ul>
+<li>Users can separate professional and personal learning</li>
+<li>Different subjects can be isolated for focused learning</li>
+<li>Learning statistics become more meaningful for specific domains</li>
+</ul>
+<p>The most compelling reason for implementing this feature is the
+strong user demand evidenced by the active feature request with over 100
+community engagements. As an Anki user myself, I understand how
+transformative this capability will be for the community.</p>
+<h2 id="references-resources">13) References &amp; Resources</h2>
+<ol type="1">
+<li>AnkiDroid GitHub Repository: <a
+href="https://github.com/ankidroid/Anki-Android">github.com/ankidroid/Anki-Android</a></li>
+<li>Multi-Profile Feature Request: <a
+href="https://github.com/ankidroid/Anki-Android/issues/2545">github.com/ankidroid/Anki-Android/issues/2545</a></li>
+<li>Anki Desktop Profile Implementation: <a
+href="https://github.com/ankitects/anki/blob/main/pylib/anki/profiles.py">github.com/ankitects/anki/blob/main/pylib/anki/profiles.py</a></li>
+<li>Android Storage Documentation: <a
+href="https://developer.android.com/guide/topics/data/data-storage">developer.android.com/guide/topics/data/data-storage</a></li>
+<li>Room Database Documentation: <a
+href="https://developer.android.com/training/data-storage/room">developer.android.com/training/data-storage/room</a></li>
+<li>AnkiDroid Developer Guide: <a
+href="https://github.com/ankidroid/Anki-Android/wiki/Development-Guide">github.com/ankidroid/Anki-Android/wiki/Development-Guide</a></li>
+<li>Android Security Best Practices: <a
+href="https://developer.android.com/topic/security/best-practices">developer.android.com/topic/security/best-practices</a></li>
+<li>SQLite Documentation: <a
+href="https://sqlite.org/docs.html">sqlite.org/docs.html</a></li>
+<li>Research Paper: “User Profile Management in Mobile Applications”
+[DOI: 10.1109/MobileHCI.2019.2927]</li>
+<li>Research Paper: “Effective Data Isolation Techniques for Shared
+Mobile Devices” [DOI: 10.1145/3173574.3173675]</li>
+</ol>
