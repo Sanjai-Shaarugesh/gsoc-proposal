@@ -49,7 +49,7 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Technologies: JavaScript, GNOME Shell API, OpenWeatherMap API
 - Repository: [https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion](https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion)
 
-![GNOME Weather Extension](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png?token=GHSAT0AAAAAAC5C4A4MZ3BBKQLA6QRXQTF6Z7VCC3Q)
+![GNOME Weather Extension](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png?token=GHSAT0AAAAAAC5C4A4ND7MNHGLYZDRXR5MOZ7VEG5Q)
 
 **2. githooo (OpenSource Dev Explorer)**
 - Created a SvelteKit web application that aggregates and displays profiles of open source developers from GitHub
@@ -58,13 +58,13 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Live demo: [githooo.vercel.app](https://githooo.vercel.app)
 - Repository: [https://github.com/Sanjai-Shaarugesh/githooo](https://github.com/Sanjai-Shaarugesh/githooo)
 
-![githooo](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png?token=GHSAT0AAAAAAC5C4A4NVIPDKAO2UIUCBPRGZ7VCDKQ)
+![githooo](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png?token=GHSAT0AAAAAAC5C4A4M7NPE4R553FZQXXQ4Z7VEIVA)
 
 
 
 **3. Speed Share (Files sharing app using webrtc)**
 
-![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png?token=GHSAT0AAAAAAC5C4A4MBXGNNCLJBYBUYM7SZ7VCDZA)
+![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png?token=GHSAT0AAAAAAC5C4A4MRNRFYBUPRR7HYVCAZ7VEH4Q)
 
 
 - Create a Astro(svelte) web application that allows users to share files with others using WebRTC
@@ -73,10 +73,10 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Live demo: [https://speed-shares.vercel.app](https://speed-shares.vercel.app)
 - Repository: [https://github.com/Sanjai-Shaarugesh/Speed-share](https://github.com/Sanjai-Shaarugesh/Speed-share)
 
-![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png?token=GHSAT0AAAAAAC5C4A4NVHHWNCS6YVVNPCUIZ7VCEKA)
+![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png?token=GHSAT0AAAAAAC5C4A4MGG45NDE3KSJ6LU22Z7VEJEQ)
 
 
-#### Noteworthy Contributions
+### Noteworthy Contributions
 
 **OneBusAway Wayfinder**
 - [PR #239](https://github.com/OneBusAway/wayfinder/pull/239): Enhanced Stop Details with Interactive Map Background
@@ -125,9 +125,9 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Color contrast and semantic HTML implementation
 
 **Developer Tools:**
-- Git, GitHub Actions, Docker, VS Code
+- Git, GitHub Actions, Docker, VS Code , vim , neovim
 - Webpack, Vite, Rollup
-- npm, yarn, pnpm
+- npm, yarn, pnpm , bun , bash , zsh
 
 ## 5) Project Goals
 
