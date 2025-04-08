@@ -1,0 +1,20 @@
+{
+	"version": 1,
+	"date": "2025-04-06T14:02:50.783Z",
+	"items": {
+		"FILES/.tangent/tangents/fedora_0/sessions/2025-4-6_19-32-10.tangentsession": {},
+		"FILES/.tangent/tangents/fedora_0/tangent.json": {},
+		"FILES/New Note.md": {
+			"modified": "2025-04-06T14:02:32.497Z",
+			"structure": [
+				{
+					"type": 2,
+					"level": 2,
+					"text": "Hi ",
+					"start": 0,
+					"end": 6
+				}
+			]
+		}
+	}
+}

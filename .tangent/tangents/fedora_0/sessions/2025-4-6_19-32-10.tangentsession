@@ -1,0 +1,23 @@
+{
+	"threadHistory": [
+		{
+			"thread": [
+				"FILES/New Note.md"
+			],
+			"currentNode": "FILES/New Note.md"
+		}
+	],
+	"threadIndex": 0,
+	"previousSession": "",
+	"map": {
+		"nodes": {
+			"FILES/New Note.md": {
+				"node": "FILES/New Note.md",
+				"isRoot": true,
+				"strength": 2,
+				"dateCreated": "2025-04-06T14:02:16.691Z"
+			}
+		},
+		"connections": []
+	}
+}
