@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="gsoc.png" alt="gsoc">
-  <img src="https://avatars.githubusercontent.com/u/1428806?s=200&v=4" style="margin-left: 40px" width=150 alt="">
+  <img src="https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/gsoc.png?token=GHSAT0AAAAAAC5C4A4MAH2WYXBBS4GGXPIUZ7VEBRQ" alt="gsoc">
+  <img src="https://avatars.githubusercontent.com/u/1428806?s=200&v=4" style="margin-left: 40px; border-radius: 5px;"  width=150 alt="">
 </div>
 
 
@@ -15,7 +15,7 @@ This project aims to transform the OneBusAway Wayfinder application, a SvelteKit
 
 ## 2) Contributor Information
 
-- **Name:** Shaarugesh Sudhakar
+- **Name:** Sanjai Shaarugesh
 - **Email:** shaarugesh6@gmail.com
 - **GitHub:** [github.com/Sanjai-Shaarugesh](https://github.com/Sanjai-Shaarugesh)
 - **LinkedIn:** [linkedin.com/in/shaarugesh-sudhakar-462876290](https://www.linkedin.com/in/shaarugesh-sudhakar-462876290)
@@ -49,29 +49,32 @@ Secondary Mentor: Aaron Brethorst (OneBusAway Co-Founder)
 - Technologies: JavaScript, GNOME Shell API, OpenWeatherMap API
 - Repository: [https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion](https://github.com/Sanjai-Shaarugesh/Advanced-Weather-Companion)
 
-![GNOME Weather Extension](img2.png)
+![GNOME Weather Extension](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/img2.png?token=GHSAT0AAAAAAC5C4A4MZ3BBKQLA6QRXQTF6Z7VCC3Q)
 
 **2. githooo (OpenSource Dev Explorer)**
 - Created a SvelteKit web application that aggregates and displays profiles of open source developers from GitHub
 - Implemented features like filtering, sorting, and detailed profile views
 - Technologies: SvelteKit, TypeScript, GitHub API, TailwindCSS
 - Live demo: [githooo.vercel.app](https://githooo.vercel.app)
+- Repository: [https://github.com/Sanjai-Shaarugesh/githooo](https://github.com/Sanjai-Shaarugesh/githooo)
 
-![githooo](image.png)
+![githooo](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/image.png?token=GHSAT0AAAAAAC5C4A4NVIPDKAO2UIUCBPRGZ7VCDKQ)
 
 
 
 **3. Speed Share (Files sharing app using webrtc)**
 
-![Speedd share](speed.png)
+![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed.png?token=GHSAT0AAAAAAC5C4A4MBXGNNCLJBYBUYM7SZ7VCDZA)
 
 
 - Create a Astro(svelte) web application that allows users to share files with others using WebRTC
 - Implemented real-time file transfer using WebRTC
 - Technologies: SvelteKit, TypeScript, WebRTC, TailwindCSS
-- Live demo: [speeddshare.vercel.app](https://speeddshare.vercel.app)
+- Live demo: [https://speed-shares.vercel.app](https://speed-shares.vercel.app)
+- Repository: [https://github.com/Sanjai-Shaarugesh/Speed-share](https://github.com/Sanjai-Shaarugesh/Speed-share)
 
-![Speed share](speed2.png)
+![Speed share](https://raw.githubusercontent.com/Sanjai-Shaarugesh/gsoc-proposal/refs/heads/main/speed2.png?token=GHSAT0AAAAAAC5C4A4NVHHWNCS6YVVNPCUIZ7VCEKA)
+
 
 #### Noteworthy Contributions
 
